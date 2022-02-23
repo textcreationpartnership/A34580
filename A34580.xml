@@ -1,0 +1,4313 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The mistaken beauty, or, The lyar a comedy, acted by Their Majesties servants at the Royal Theatre.</title>
+            <title>Menteur. English</title>
+            <author>Corneille, Pierre, 1606-1684.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 132 KB of XML-encoded text transcribed from 30 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A34580</idno>
+            <idno type="STC">Wing C6314</idno>
+            <idno type="STC">ESTC R18809</idno>
+            <idno type="EEBO-CITATION">12396346</idno>
+            <idno type="OCLC">ocm 12396346</idno>
+            <idno type="VID">61187</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A34580)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 61187)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 935:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The mistaken beauty, or, The lyar a comedy, acted by Their Majesties servants at the Royal Theatre.</title>
+                  <title>Menteur. English</title>
+                  <author>Corneille, Pierre, 1606-1684.</author>
+               </titleStmt>
+               <extent>[4], 52 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Simon Neale ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+                  <note>Attributed to Pierre Corneille. cf. NUC pre-1956.</note>
+                  <note>An anonymous translation of Corneille's "Le menteur".</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>English drama --  Early modern, 1500-1700.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2006-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2006-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2007-02</date>
+            <label>Jonathan Blaney</label>Sampled and proofread</change>
+         <change>
+            <date>2007-03</date>
+            <label>Apex CoVantage</label>Rekeyed and resubmitted</change>
+         <change>
+            <date>2010-02</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:61187:1"/>
+            <pb facs="tcp:61187:1" rendition="simple:additions"/>
+            <p>THE Miſtaken Beauty, OR THE LYAR A COMEDY. ACTED By their
+MAJESTIES Servants At The ROYAL THEATRE</p>
+            <p>LONDON Printed for <hi>Simon Neale,</hi> at the three
+<hi>Pigeons</hi> in <hi>Bedford-ſtreet</hi> in <hi>Covent-Garden,</hi> over
+againſt the New <hi>Exchange</hi> MDCLXXXV.</p>
+            <pb facs="tcp:61187:2"/>
+            <pb facs="tcp:61187:2" rendition="simple:additions"/>
+            <gap reason="duplicate" resp="#OXF" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="prologue">
+            <pb facs="tcp:61187:3"/>
+            <pb facs="tcp:61187:3"/>
+            <head>PROLOGUE.</head>
+            <lg>
+               <l>WE had rather have you Auditors to day,</l>
+               <l>Than only bare ſpectators of our Play,</l>
+               <l>And <hi>exerciſe</hi> your Wits as well as Eyes,</l>
+               <l>The propereſt entertainment of the wiſe.</l>
+               <l>Mean time our <hi>Prologue</hi> to our Play to fit,</l>
+               <l>We'll ſay, it's dull, inſipid, void of wit;</l>
+               <l>Lame, and deficient much, in every part,</l>
+               <l>Writ without judgment, plotted without art;</l>
+               <l>In fine, ſtark naught: but ſtay I lye, and they,</l>
+               <l>Muſt do ſo to, who diſcommend the Play.</l>
+            </lg>
+         </div>
+         <div type="dramatis_personae">
+            <pb facs="tcp:61187:4"/>
+            <head>The ACTORS Names</head>
+            <list>
+               <item>
+                  <hi>Geronte</hi> Father to <hi>Dorant.</hi>
+               </item>
+               <item>
+                  <hi>Dorant</hi> his Son and <hi>Lucretia</hi>'s
+Gallant.</item>
+               <item>
+                  <hi>Argante, Geronte</hi>'s Friend.</item>
+               <item>
+                  <hi>Alcippe,</hi> Friend to <hi>Dorant,</hi> and
+<hi>Lucretia</hi>'s Lover.</item>
+               <item>
+                  <hi>Philiſt, Dorant's</hi> and <hi>Alcippe</hi>'s
+Friend.</item>
+               <item>
+                  <hi>Clyton, Dorant's</hi> Man.</item>
+               <item>
+                  <hi>Lycas, Alcippe's</hi> Valet.</item>
+            </list>
+            <list>
+               <head>The WOMEN.</head>
+               <item>
+                  <hi>Clariſſa, Alcippe's</hi> Miſtriſs.</item>
+               <item>
+                  <hi>Lucretia,</hi> her Friend.</item>
+               <item>
+                  <hi>Iſabella, Clariſſa's</hi> Woman.</item>
+               <item>
+                  <hi>Sabina, Lucretia's</hi> Chamber-Maid.</item>
+            </list>
+            <stage>The Scene <hi>Paris.</hi>
+            </stage>
+         </div>
+      </front>
+      <body>
+         <head>
+            <pb facs="tcp:61187:4"/>THE LYAR</head>
+         <div n="1" type="act">
+            <div n="1" type="scene">
+               <head>Actus Primus. Scena Prima.</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>IN fine, I'm turn'd Gallant, and according to my deſire my
+Father is content I ſhould throw off the <hi>gown</hi> and leave the
+<hi>Law</hi> with al<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> its
+<hi>Quirks</hi> and <hi>Quillits:</hi> and now we're in the
+<hi>Thuilleries</hi> here, th<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Land
+o'th better World and Gallantry; tell me <hi>Clyton,</hi> how do'ſt thou like
+this <hi>Metamorphoſis,</hi> have I not quite put off the Scholar? who come
+from the Kingdome of the <hi>Codes</hi> like me have ſeldome the Meen and Air
+of Gallantry.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>That General Rule Sir was not made for you, y'ave nothing of the
+Scholar in you, nor was <hi>Bartolus</hi> ever painted a this faſhion; you
+look as you would make a Thouſand jealous, and I forſee a grand misfortune
+hang<g ref="char:EOLhyphen"/>ing over the heads of many a married Man; and how d'ye like
+<hi>Paris?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>The Air is pleaſant and agreeable; and now methinks that Law
+was too ſevere, under pretence of ſtudy, baniſht me ſo long from hence.
+But tell me thou who haſt had the happineſs to have liv'd here all this
+while, and knoweſt all their Divertiſments, How ſhould one gain the
+Ladies fa<g ref="char:EOLhyphen"/>vours?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I marry Sir! I like you, That, as the Poet ſings, is the
+Gentle Care of every Noble breaſt. But leaving Poets and Poetry, your
+ſtomach's up betimes I ſee, and your humor can't away with idleneſſe,
+you long to be doing, you came to Town but yeſter night and to day y'ar
+ſeeking a Miſt<g ref="char:EOLhyphen"/>riſs; but I'm in a good poſture and fine Reputation with
+ye am I not? that you ſhould ask inſtructions of me, as if I were
+ſuperintendant of the Ladies quarters, and profeſt Maſter of the
+Faculty.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Miſtake not <hi>Clyton</hi> I mean honeſty and wou'd only be
+acquainted with ſome of them to talk and be merry for my divertiſement, and
+plea<g ref="char:EOLhyphen"/>ſantly paſſe away an hour or two ſometimes.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I underſtand, and know y'ar no ways given to
+<hi>Deboſherie,</hi>
+                  </p>
+                  <l>
+                     <hi>And wo'd ſcorn thoſe VVho'd follow you,</hi>
+                  </l>
+                  <l>
+                     <hi>At ſound or tinkling of a Crown or two;</hi>
+                  </l>
+                  <p>nor do you much care; for thoſe ſage <hi>Cocquetts</hi>
+confine their ſecret favours all<pb n="2" facs="tcp:61187:5"/>to Talk, and all your
+pleaſure to the eyes, the paſtime's not worth the Candle—'tis not to
+paſs, but caſt on's Time away for Gallants to con<g ref="char:EOLhyphen"/>verſe with ſuch as
+they—no, no—y're of another Complexion I know; and would be glad
+with all your heart to meet with ſome of thoſe Good ver<g ref="char:EOLhyphen"/>tuous Ladies;
+whoſe vertues, upon a good occaſion, are not Incompatible with a little
+Vice, and you ſhall find of all ſorts here—mean Time what need you
+ask inſtructions of me! If I be'nt deceiv'd in Phyſognomy, you are no
+Novice, nor did the Law regulate your time ſo wholly to be always found with
+a Law-Book in your hand.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>To confeſs the Truth <hi>Clyton</hi> I liv'd at
+<hi>Poictiers</hi> as other young Stu<g ref="char:EOLhyphen"/>dents do and had my ſhare of all their
+pleaſure too, but <hi>Paris</hi> and <hi>Poictiers</hi> are quite different,
+and as their Climate, ſo their manner of living is quite different too, I
+have known ſome there counted great Wits for admiring things, which here they
+would be laugh'd at for, and counted men o'th other World for their admiring
+them. I'th Country on's glad of any thing and Fools paſs muſter for want of
+wiſer men: but here, where their eyes are not dazled with thoſe falſe
+lights, 'tis requiſite they have other qualities; and 'midſt the number of
+ſo many eminent men on's ill look'd on, if he don't reſemble them.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>You don't know <hi>Paris</hi> yet I ſee, that's a great Mart
+or Fair, where you ſhall find inſtall'd all ſorts of Ware, and there is
+ſuch deceit in them, as one may be as eaſily cozen'd here, as in any part
+of <hi>France:</hi> 'tis a great World where 'midſt the confuſion of all
+ſorts who come from all parts hi<g ref="char:EOLhyphen"/>ther, amongſt your choice, as you have
+every where ſo y'ave at <hi>Paris</hi> here, your Refuſe Ware, which, being
+hard to be diſtinguiſhed, moſt commonly every on's eſteem'd according
+to the rate he ſets on himſelf, and ſo no doubt but they will eſteem
+you too. But touching your Demand are you Liberal?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I'm no ways avaritious.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I ask becauſe 'tis a great ſecret in Love, to know how to
+beſtow on's gifts with diſcretion, otherwiſe you ſhall looſe rather
+than gain; by it and oblige none by your liberality: the manner of giving's
+more than the Gift it ſelf, here one in Gaming cunningly<g ref="char:punc">▪</g> diſguiſes
+his preſents under the name of loſs, another there forgets a Jewel behind
+him, he knows wou'd ne'r have been accepted had it been preſented; a liberal
+Fool gives preſents to his Miſtriſs as he were giving Alms; and ſo in
+doing every thing out of time he diſobliges inſtead of obliging them.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Leaving thoſe Fools thou declaim'ſt againſt, who are
+theſe Ladies canſt tell?</p>
+               </sp>
+               <sp>
+                  <pb n="3" facs="tcp:61187:5"/>
+                  <speaker>Cly.</speaker>
+                  <p>Alas Sir Ideal in no ſuch coſtly ware, they're too high game
+for ſuch as I to fly at; but I ſhall eaſily learn of their Coachmen.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Do'ſt think he'l tell thee?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I, all he knows. And more than you deſire to know to, if he be
+a right Coachman.</p>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>Scena 2.</head>
+               <stage>Clariſſa, Lucretia, Iſabella, Dorant.</stage>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Ah, 
+<stage>She ſtumbles and <hi>Dorant</hi> lends her his
+hand</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Lady this miſchance of yours has been a happy chance for me in
+affording me the occaſion of rendering you this little ſervice.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Sir the happineſs this occaſion has afforded you is ſo
+ſmall, y'ave juſt reaſon to count it none at all.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>True Lady, I owe it wholly unto chance, nor has your deſires
+nor my deſerts any part in it, which make me eſteem my ſelf not much more
+happier than I was before, ſince all the Favour y'ave granted me (in fine)
+had been denyed to any deſert of mine.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I'm of opinion one ſhou'd eſteem a benefit the more, the
+leſs th've de<g ref="char:EOLhyphen"/>ſerv'd it, ſince a gift is more than a <hi>recompence,
+&amp; conſequently our obligation<g ref="char:punc">▪</g>
+                     </hi>
+                  </p>
+                  <l>Favour that's merited is in a manner bought,,</l>
+                  <l>Whilſt that we ne'r deſerv'd do's coſt us nought:</l>
+                  <l>And the greateſt happineſs merit can pretend unto,</l>
+                  <l>Is juſt like <hi>Hirelings</hi> to be paid for what they
+do,</l>
+                  <p>beſides this way we obtain with eaſe, what we cannot without
+much la<g ref="char:EOLhyphen"/>bour and difficulty, the other.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Think me not Lady ſo preſumptuous to imagine by any merit or
+deſert of mine to deſerve your leaſt of Favours; I better know to ſet
+the right value and eſteem on them than ſo, and the leſs I deſerve them
+count my happineſs the more I know too, how without injury you might have
+denyed them me; if then my heart repine 'tis only for being ſo unhappy in my
+happineſs you ſhou'd oblige me without deſign—it is the intention,
+ſets value on the Act and a kind of undervaluing things</p>
+                  <l>To do them without it, the favour then is but ſmall,</l>
+                  <l>To give me y'r hand, 'leſs you give me your Heart withall;</l>
+                  <p>and judge how little nouriſhment that fire receives,</p>
+                  <l>That Amorous fire inkindled in my breſt,</l>
+                  <l>By giving me your hand and denying me the reſt.</l>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>That fire you ſpeak off ſir's ſo new to me as now I only
+ſee the fire<g ref="char:EOLhyphen"/>ſparks of it; and though your heart perhaps may burn ſo
+ſoon, yet know<pb n="4" facs="tcp:61187:6"/>Sir mine requires a longer Time: but now I
+ſee your flame, mine perhaps may burn hereafter too by ſimpathy; mean time
+you can't in juſtice blame me not to know what I was wholly ignorant off till
+now.</p>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>Scena 3.</head>
+               <stage>Clyton, Dorant, Clariana, Lucretia, Iſabella,</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>That's the eflect of the misfortune every where perſecutes me,
+that I ſhould be here e'r ſince I left the <hi>German</hi> Wars almoſt a
+year, Night and Day ſeeking the occaſion to make my Love known t'ye now in
+<hi>pro<g ref="char:EOLhyphen"/>menades,</hi> and now in <hi>Balls,</hi> and giving ye
+<hi>ſerenades,</hi> and never find that happineſs till now.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And have you been in the <hi>German</hi> Wars then?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I have Lady, nor was lightning more impetuous, nor Thunder there
+more formidable than I.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly,</speaker>
+                  <p>What's all this?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor,</speaker>
+                  <p>In all which time no Battle e'r was fought, nor Siege e'r laid
+to any place, but all the Glory of the Victory was principally attributed to
+me, witneſs the <hi>Gazzette</hi>—</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Why Mr. what mean you? are you mad?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Hold your peace, or—</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>You came but yeſterday from <hi>Poictiers,</hi> the Devil take
+me elſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Go to, I ſay—Yes Lady, for that ſhort time I follow'd
+the Wars I well may glory without vanity, none ere acquir'd a greater name than
+I.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And how came you to relinquiſh ſo Noble, ſo Gallant an
+exerciſe?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>That's the effect only of your fair Eyes, when returning the
+laſt Winter from the <hi>Campania</hi> to make my Court at <hi>Paris</hi>
+here, ſeeing you La<g ref="char:EOLhyphen"/>dy, you ſoon made me (in fine) your Priſoner, who had
+mad many mine, ſince when abanddoning all thoſe noble cares, I formerly
+imployed in the Wars, Commanding Armies, Conquering Enemies,</p>
+                  <l>With Thouſand famous exploits, the Wars now done</l>
+                  <l>I imployed them all in ſerving you alone.</l>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>Madame yonder's <hi>Alcippe,</hi> he'll be jealous.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Well Sir, another time we ſhall have leiſure to hear more,
+now I muſt take my leave,</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And will you ſo ſoon deprive me of all my happineſs?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Excuſe me Sir, notwithſtanding the pleaſure I take to hear
+my ſelf flatter'd; I muſt needs be gone and make a turn or two in the Walks
+alone.</p>
+               </sp>
+               <sp>
+                  <pb n="5" facs="tcp:61187:6"/>
+                  <speaker>Dor.</speaker>
+                  <p>Grant me permiſſion at leaſt before you go to be your
+ſervant and always to love you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <l>Who are reſolv'd to Love and know</l>
+                  <l>What belongs to loving too,</l>
+                  <p>need ask leave of no body elſe for that beſide
+themſelves.</p>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <head>Scena 4.</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Do you follow 'em <hi>Clyton?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>That needs not Sir; for the Coachman has told me all, the
+hand<g ref="char:EOLhyphen"/>ſomer of the two is his Miſtriſs, ſhe's called <hi>Lucretia,</hi>
+ſhe lodges in the place.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What place?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>The place Royal.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Oh!</p>
+               </sp>
+               <sp>
+                  <speaker>Cly,</speaker>
+                  <p>The other whoſe name he does not know is lodg'd there too; I
+ſhall eaſily find her out.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No matter, ſuffices I know the fair <hi>Lucretia,</hi> the
+handſomer of the two, ſhe whom I had the happineſs to entertain.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>By Your favour Sir I rather think the other's ſhe.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What ſhe who ſtood mute all the while and never ſpoke a
+word?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Oh Sir, that's ſo rare a quality and perfection in a Woman to
+hold her peace, ſuch a miracle in nature<g ref="char:punc">▪</g> ſuch a prodgy in Earth, and
+ſuch a par<g ref="char:EOLhyphen"/>ticular grace in Heaven, eſpecially in this Age we live in, as
+for me <hi>who</hi> was never married, nor ever am like to be, I ſhou'd
+prefer one with that quality only, though as ugly and deformed as an old
+Baboon, to all the perfections of Women-kind; wherefore Maſter ſeek another
+name for your Miſtriſs if you pleaſe; for infallibility t'others
+<hi>Lucretia,</hi> and the handſomer of the two, or I'm an arrant Dunce and
+blockhead.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>That I eaſily believe for all thy <hi>boutades</hi> and
+flaſhes; but ſee <hi>Alcippe</hi> my old acquaintance here, by their looks
+and Actions they ſeem to wonder at ſomewhat.</p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena 5.</head>
+               <stage>Alcippe, Philiſt, Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Phil.</speaker>
+                  <p>How! Muſick and Collation upon the Water?</p>
+               </sp>
+               <sp>
+                  <pb n="6" facs="tcp:61187:7"/>
+                  <speaker>Alc.</speaker>
+                  <p>Collation and Muſick.</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>Yeſter night<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Alc.</speaker>
+                  <p>Yeſter night!</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>And how?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Magnificent enough.</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>And who ſhould give it?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Nay that I do not know.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Dear Friend! how happy am I in this encounter?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>And my happineſs is no leſs to encounter you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But I've been unmannerly to interupt your Diſcourſe: pardon
+my joy in ſeeing you.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>You have all power over your Friends Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And of what were you diſcourſing I pray? may I not partake
+of it?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Only of a certain Gallantry.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Some Love matter I warrant!</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>I preſume ſo.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What was't? the name of Love and Gallantry has awak'd my
+long<g ref="char:EOLhyphen"/>ing and curioſity to know it.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Why we were talking of a Collation and Muſick given to a Lady
+on the Water.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Good—oft times the Water makes the Fire burn more.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Sometimes it does.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And when was this?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Yeſter night.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Proper—fires always ſhine brighteſt in the Night; they
+knew well how to chooſe their time it ſeems: and was the Lady
+handſome?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Many think her ſo<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And the Muſick!</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>None of the worſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And Collation!</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Excellent well order'd<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And don't you know all this while who gave it? Ha, ha, ha.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Why d'ye laugh?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>To ſee you ſo admire a ſorry divertiſment of mine.</p>
+               </sp>
+               <sp>
+                  <speaker>Al,</speaker>
+                  <p>Of yours? Why did you give it?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Even I my ſelf.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>And have you got a Miſtriſs already then?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I had but ſmall addreſs elſe having been a month or more
+in Town, though for certain reaſons I ſeldome ſtir'd abroad by Day, and
+only made<pb n="7" facs="tcp:61187:7"/>my viſits <hi>Incognito</hi> by night, not to have
+got a Miſtriſs all this time.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Why Maſter d'ye know what you ſay?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Hold your peace, and if ever I catch you interupting me
+again—</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>It makes me mad to hold my peace and hear him lye a this
+manner.</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>What luck have You. To have your Rival himſelf, diſcover
+himſelf unto you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>As to my dear Friends, now I'll tell you all, of five Barges
+expreſly I had prepar'd, I diſpos'd four Conſorts of Muſick, in four of
+them; Vio<g ref="char:EOLhyphen"/>lins in the firſt, Lutes and Voyces in the ſecond, Flutes in the
+third, and Hoboy's in the laſt;</p>
+                  <l>
+                     <hi>Who playing by turns ſo Raviſhed our Ears,</hi>
+                  </l>
+                  <l>
+                     <hi>It ſeem'd the very Harmony of the Spheres:</hi>
+                  </l>
+                  <l>
+                     <hi>The firſt, and moſt capacious of all,</hi>
+                  </l>
+                  <l>
+                     <hi>Serv'd us for our Banqueting Houſe, or Hall.</hi>
+                  </l>
+                  <l>
+                     <hi>Contrived ſo with interlaced Boughs,</hi>
+                  </l>
+                  <l>
+                     <hi>For freſhneſs ſake it ſeem'd a Summer
+Houſe:</hi>
+                  </l>
+                  <l>
+                     <hi>At each corner were Feſtons of Jeſſamine,</hi>
+                  </l>
+                  <l>
+                     <hi>With other verdurs, Orange-flowers and Granadine:</hi>
+                  </l>
+                  <l>
+                     <hi>Thither I led the Lady I adore;</hi>
+                  </l>
+                  <l>
+                     <hi>Attended on, by ſome five <hi>Beauties</hi> more,</hi>
+                  </l>
+                  <p>and preſently in all pompeous manner the Collation was
+ſerved in—it were long to tell you the ſeveral Services, Number of
+the Diſhes, and or<g ref="char:EOLhyphen"/>der of every Meſs: ſuffices it, In this delicious
+Room, there were ſix ſervices, twelve Diſhes at every one:</p>
+                  <l>
+                     <hi>While the Air, the Water, and adjoyning ſhore,</hi>
+                  </l>
+                  <l>
+                     <hi>Eccho'd the Muſick which the Barges bore;</hi>
+                  </l>
+                  <l>
+                     <hi>Riſen from Table ſuddenly did appear</hi>
+                  </l>
+                  <l>
+                     <hi>Fire-works o'th Bank-ſide darted in the Air,</hi>
+                  </l>
+                  <l>
+                     <hi>And Thouſand Thouſands flying now upright,</hi>
+                  </l>
+                  <l>
+                     <hi>And now acroſs did make a day of Night<g ref="char:punc">▪</g>
+                     </hi>
+                  </l>
+                  <l>
+                     <hi>In which Deluge of flames you would admire<g ref="char:punc">▪</g>
+                     </hi>
+                  </l>
+                  <l>
+                     <hi>To ſee th' Element of water turn'd to fire;</hi>
+                  </l>
+                  <l>
+                     <hi>This paſt, and done we danced the reſt <hi>o'th'</hi>
+Night,</hi>
+                  </l>
+                  <l>
+                     <hi>Paſſing the time with infinite delight</hi>
+                  </l>
+                  <l>
+                     <hi>Till Day, when I waited on the Ladies home,</hi>
+                  </l>
+                  <l>
+                     <hi>And ſo we finiſh'd our Collation.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>I muſt needs ſay Sir, you have an admirable faculty in
+recounting wonders; And <hi>Paris</hi> as great as 'tis has ſeldome ſeen a
+<hi>Banquet</hi> like <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> this.</p>
+               </sp>
+               <sp>
+                  <pb n="8" facs="tcp:61187:8"/>
+                  <speaker>Dor.</speaker>
+                  <p>Alas, I was ſurpriz'd, and had only an hour or two's warning
+to prepare it, elſe that had been far more ſplendious and magnificent.</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>The order was rare and exquiſit, and the expence muſt needs
+have been Exceſſive and Immenſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>A ſlight Toy not worth the ſpeaking off.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Well, fare ye well ſir, we ſhall meet another time at more
+lieſure.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I am your Servan<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+ſir, and I beſeech you count me ſo.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>I even die with jelouſie <hi>Philiſt.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>Faith and y'ave ſmall reaſon; for the particulars of this
+Collation agree but ill with the particulars of the Page.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>The hour and place agree at leaſt, the reſt is nothing.</p>
+               </sp>
+            </div>
+            <div n="6" type="scene">
+               <head>Scena 6.</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Now Sir, may I freely ſpeak to you, without offence?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Thou mayeſt, and thou mayeſt chooſe too whether thou wilt
+or no: but look, before company you be leſs ſaucy hereafter.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Is it your Cuſtome to Reve thus when you talk?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How Reve?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Nay Sir I ſpeak with reſpect unto you; in any other but your
+ſelf I ſhould call it plain lying.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Fool thou haſt no wit.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Faith Sir, for that little I have you'd make me loſe it to
+hear you talk a this manner, of Wars and Banquets, and conſorts of Muſick,
+and I know not what: I like you, you fight without any danger yet, and make
+Feaſts without any Coſt; but why I wonder ſhou'd you fain y'ad been in
+Town ſo long?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why but the more to endear my affection?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And what had the Wars to do with that?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Simple! twou'd have been a fine Complement wou'd it not? to
+ſay Ladies <hi>I am latly come from the <g ref="char:V">Ʋ</g>niverſity, and if y'ave any need
+of the Laws, or of the Rubriques, I know the whole Codex, and Authenticks too;
+the Old and New digeſt, the infortiat Baldus Jaſon, Accurſius and
+Aleiat;</hi> this brave diſcourſe now would render one very conſiderable
+in Ladies com<g ref="char:EOLhyphen"/>pany and mollifie the Hearts of the moſt inexorable, wou'd it
+not? and a Paragraph-man wou'd make a fine Gallant for Ladies! no the Title of
+the Valiant is that introduces us into their favour, ſtrait, and makes them 
+<pb n="9" facs="tcp:61187:8"/>admire us too; they love Souldiers, and love to hear them
+talk of Angles, Lines, Fortifications, ſtrange names of Men, Cities and
+Nations; which the leſs they underſtand more it amazes 'em: All the Art is
+in ſetting a good Face upon't, Lying handſomly and Swearing with a good
+Grace.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>But when they know all this is but a Lye?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>When once I've gain'd acceſs by't, what care I; and for any
+other misfortune, if any importunatly come to trouble me, 'tis but ſaying we
+ſpeak by Intelligence, this 'tis to make Love <hi>a la Mode</hi> now.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Theſe are Myſteries too high for me, I underſtand them
+not; but touching your Feaſt, you'd prove an excellent maker of Romances
+(with<g ref="char:EOLhyphen"/>out doubt) and never <hi>
+                        <g ref="char:V">Ʋ</g>rganda</hi> nor <hi>Meluſin</hi> with all
+their enchant<g ref="char:EOLhyphen"/>ments could furniſh a Kitchen half ſo ſoon, nor half ſo
+well as you have done: I perceive theſe lofty Fictions are natural unto
+you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I profeſs I take delight when your great Talkers and Tellers
+of Wonders think to amaze me with Stories they Tell, to make them pre<g ref="char:EOLhyphen"/>ſently
+more wonder at Stories I Tell 'em again thou canſt not imagine the pleaſure
+I take</p>
+                  <l>
+                     <hi>To turn their own Wonders home</hi>
+                  </l>
+                  <l>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>nto themſelves and ſtrike theſe Talkers
+dumb.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I doubt not but that ye take great pleaſure in't; but wo'nt
+this engage you in quarrels ſometime or other?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>If't do I muſt diſengage my ſelf as well as I can again,
+but this idle diſcourſe, has retarded me from ſeeking the Lady:</p>
+                  <l>
+                     <hi>Come <hi>Clyton</hi> follow me and I'll teach thee
+more</hi>
+                  </l>
+                  <l>
+                     <hi>Art how to live, than e're thou knew'ſt before.</hi>
+                  </l>
+               </sp>
+            </div>
+            <trailer>Finis Actus Primi</trailer>
+         </div>
+         <div n="2" type="act">
+            <pb n="10" facs="tcp:61187:9"/>
+            <div n="1" type="scene">
+               <head>Actus 2. Scena 1.</head>
+               <stage>Geronte, Clarina, Iſabella.</stage>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I doubt not of his worth Sir, nor needs there farther
+commendation; it is ſufficient he is your Son; but yet I ſhou'd appear too
+greedy and avidous of marri<g ref="char:EOLhyphen"/>age, (however worthy he were) to take a Husband on
+credit whom I ne'r had ſeen before: On the other ſide, to admit his
+Viſits and Courtſhip in quality of a Suiter; ſuppoſe the marriage went
+not on it wou'd but expoſe me to affronts and deriſion.</p>
+                  <l>Wherefore I deſire to ſee him firſt, and ſee him
+ſo,</l>
+                  <l>As whether the marriage go on or no,</l>
+                  <p>It may be no prejudice to my Fame and me.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <l>It is but juſt and reaſonable, and you declare</l>
+                  <l>your ſelf <hi>Clarina,</hi> as diſcreet as fair,</l>
+                  <l>In your demand, I'le go fetch <hi>Dorant</hi> then,</l>
+                  <l>And within this hour return with him agen,</l>
+                  <p>and take occaſion to make a ſtand juſt under your window,
+that you may throughly ſurvey him; mark but his Perſon, Port and
+Preſence, and you ſhall ſee, though he came but yeſterday a Scholar
+from the Univerſity few Courtiers have better <hi>Air</hi> and <hi>Meen</hi>
+than he; but of this your ſelf be judge (after common Fame) for me his Father
+I may be partial in his Commendations, for the deſire I have</p>
+                  <l>To ſee him wedded, being my only Son,</l>
+                  <l>And wiſh him Married unto you alone.</l>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>You much honour me Sir, in making ſo worthy a choice for ſo
+unworthy a perſon, and I in confidence of your commendations; have a longing
+deſire to ſee him.</p>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <pb n="11" facs="tcp:61187:9"/>
+               <head>Scena, 2.</head>
+               <stage>Clarina, Iſabella,</stage>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>So, without engageing your ſelf you are reſolved to ſee
+him then.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I am <hi>Iſabella;</hi> but alas! what can I judge of him by
+ſeeing of him ſo?</p>
+                  <l>I ſhall ſee his outward form 'tis true,</l>
+                  <l>But that is nothing leſt I ſee his interior too.</l>
+                  <p>our eyes are but flattering glaſſes, to make things appear
+far fairer than they are; but pleaſing impoſtures that ſhew them without,
+far contrary to what they are within; and oftentimes we find a noble Preſence
+with an ignoble mind: Our eyes then are to have the firſt choice ſtill, but
+not the laſt; and we are not to diſpleaſe them, on pain of our
+diſquiet, nor to pleaſe e'm ſo again to be wholly rul'd by 'em; finally
+'tis more ſafe</p>
+                  <l>To believe them when they refuſe,</l>
+                  <l>Then ofTimes when they chooſe;</l>
+                  <p>eſpecially in choice of this marriage chain,</p>
+                  <l>(May bind us all our lives perhaps to one,</l>
+                  <l>From whom we may have horror and averſion)</l>
+                  <p>(which well conſider'd <hi>Iſabella</hi> ſhou'd make us
+more fear, than deſire it,) we had need of more faithful Councellors than our
+Eyes; as for me, being to chooſe a Maſter, I'm reſolved to ſee him
+before I make choice of him; and ſee him ſo that I may behold both his
+exterior and interior.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>Beſt ſpeak with him than.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>But <hi>Alcippe</hi> wou'd be jealous.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>What matter, ſo you have <hi>Dorant,</hi> whether he be or
+no?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>No, I have not yet ſo great an indifferency for him to ſet
+ſo light by his jealoſie, 'tis now a year ſince we were contracted, and's
+Father's preſence only ex<g ref="char:EOLhyphen"/>pected here for final concluſion of our marriage;
+who makes ſo many delayes, pretending now buſineſs, now danger of 
+<pb n="12" facs="tcp:61187:10"/>the Ways, from <hi>Tours</hi> hither; now
+indiſpoſition, and now unſeaſonableneſs of the time: as I begin, in
+fine to ſuſpect the delays, and take them for neglect, mean while I'm not
+in humor to die for conſtancy:</p>
+                  <p>
+                     <hi>Virginity is a commodity will hardly off, if it be kept too
+long, each hour it abates and diminiſhes of its price; Time won't be dallyed
+with, Maids are contemn'd when they grow old; and though</hi>
+                  </p>
+                  <l>Nothing's more glorious than a Virgins name,</l>
+                  <l>(Grown ſtale yet) nothing's more a Virgins ſhame.</l>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>And wou'd you forſake <hi>Alcippe</hi> for another then?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Yes if I lik'd that other better than him; but e're I forſook
+him I'de be ſure of one, That ſhou'd ſupply his plaec when he were gone;
+and one who'd inſtantly marry me:</p>
+                  <l>Elſe <hi>Alcippe</hi> (what ever may befall)</l>
+                  <l>Would make a better husband than none at all.</l>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>I'll tell you how you ſhall do then, <hi>Lucretia's</hi> your
+friend, and will do any thing for you, get her to ſend a Letter to
+<hi>Dorant</hi> to come and ſpeak with her to night, at her window, ſo you
+may ſpeak with him, under her name, and none be jealous, nor he ever
+ſuſpect 'tis any one but ſhe.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I like th' Invention well, and <hi>Lucretia</hi> I'm ſure at
+the firſt word will doo't, so by this ſtratagem I may ſee <hi>Dorant</hi>
+and freely converſe with him.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>Now I think on't, you freely enough to day convers't with that
+ſtrange Gentleman; and if I ben't deceiv'd, lik't his Converſation<g ref="char:punc">▪</g>
+too well enough.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And if <hi>Dorant</hi>'s do like me but as well, I ſhou'd have
+but ſmall difficulty to leave <hi>Alcippe</hi> for him.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>Peace don't name him, he comes here.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>His coming troubles me—but go you to <hi>Lucretia</hi>'s
+and as you have advis'd; I'le leave the manngement of all to you.</p>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <pb n="13" facs="tcp:61187:10"/>
+               <head>Scena, 3.</head>
+               <stage>Alcippe, Clarina.</stage>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Ah <hi>Clarina, Clarina!</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What's the matter?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Falſe, inconſtant <hi>Clarina!</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Has he over heard me? or heard of this intended marriage? what
+ayl you? you ſigh ſo.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>You make as if you did not know! ask of your own Conſcience
+and that will inform you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Speak ſoftly, my Father comes.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>
+                     <hi>Your Father comes!</hi> falſe-hearted diſſembling
+Woman, you fear your Father now I am here; but all Night on the <hi>River</hi>
+you had no fear at all of him,</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What all night on the <hi>River?</hi> I underſtand you
+not.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Can you ask me withont bluſhing?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What ſhou'd I bluſh for?</p>
+               </sp>
+               <sp>
+                  <speaker>Al,</speaker>
+                  <p>Methinks you ſhou'd even die for ſhame to hear me name
+theſe two words t'ye.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What deadly Charme have theſe two words I pray? that I
+ſhou'd die with hearing them?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Can you hear them and deſire to hear more, or can't you
+bluſh unleſs I tell you all?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What all?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Why all your Revels laſt Night.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What Revels? hang me if I know what you mean.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>When I'm with ye, your <hi>Father comes,</hi> an excellent
+excuſe! but you can be with others all night and he ne'r thought upon,</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Why <hi>Alcippe</hi> are you mad?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Knowing what I know you were enough (I confeſs) to make me
+ſo; yes all night, untill Morning, I ſpeak of no longer agon, than Yeſter
+night.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>D'ye Reve? or Rail? or what's the Myſtery?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>The myſtery is ſomewhat new and ſtrange, (I grant you) but
+<pb facs="tcp:61187:11"/>not ſo ſecret as you imagine it; for in fine your Gallant has
+told me all; you ſee what diſcreet Gallants you make choiſe of.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What Gallant?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Dorant.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Dorant!</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>'Tis very good! fain your ſelf ignorant ſtill, do.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>If ever I ſaw him—</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>And was not his Father here juſt now with you? 'tis well, go
+on and paſs the Day with the Father, and the Night with the Son, 'tis very
+well<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>His Father and mine are Old Acquaintance.</p>
+               </sp>
+               <sp>
+                  <speaker>Al,</speaker>
+                  <p>And was't for that I pray, that he was here? I, now you bluſh,
+when you know not what to ſay; needs there any more yet to convince you?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>As for his Son, proteſt I never ſaw his Face.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Very likely, but yet however it was night you could not but
+ſee him by the Fire-works light; or had you no lieſure perchance to look on
+him for admiring his ſumptuous Feaſt, of ſix Services, and twelve
+Diſhes at leaſt at every one? Or did the Dancing and Muſick ſo wholly
+take up your Attention? you cou'd not mind him! yet you might have ſeen him
+by day at leaſt; for<g ref="char:punc">▪</g> 'twas bright day ere you broke up your Feaſt:
+have I told you enough yet? to make you underſtand my meaning, and bluſh,
+and die for ſhame.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What at a fain'd Story?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Belike I am a <hi>Lyar</hi> then! a humorous Coxs-comb! a
+jealous Aſs?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Somebody infallibly has abus'd you—<hi>Alcippe</hi> credit
+me,</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Come, come ne'r ſeek excuſes, I know your tricks well
+enough, but 'twill not ſerve your turn; farwell, enjoy <hi>Dorant,</hi> Love
+him, Adore him, let me alone, and ne'r think of <hi>Alcippe</hi> more.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>But <gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ar me a word or
+two before you go.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>No, no, <hi>your Father comes.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>He do's not, I did but jeſt, but ſtay till I've diſabus'd
+you at leaſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Well on condition you inſtantly marry me and give me your
+hand, and faith, and two Kiſſes to boot, I care not if I do.</p>
+               </sp>
+               <sp>
+                  <pb n="15" facs="tcp:61187:11"/>
+                  <speaker>Cla.</speaker>
+                  <p>And will no leſs do't?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Two kiſſes, no leſs, and thoſe of your kindeſt ones;
+nay quickly diſpatch.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I cannot, <hi>My Father comes.</hi>
+                  </p>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <head>Scena, 4.</head>
+               <stage>Alcippe.</stage>
+               <sp>
+                  <speaker>Al</speaker>
+                  <p>Go then, and mock my Anger, do,</p>
+                  <l>Make ſport at my rage and me, till with indignity</l>
+                  <l>Thou break my bands and chains, and ſet'ſt me free;</l>
+                  <p>turn my deluded fires to Ice; and in their ſtead, let my
+juſt Anger burn; mean while</p>
+                  <l>I'le ſeek your Gallant out, and make him feel</l>
+                  <l>The dire effects of my revengful ſteel;</l>
+                  <p>ſhort ſhall be your joy of him, his blood and mine both in
+one ſtream ſhall run; e'r he ſhall glory in poſſeſſion of any
+thing was mine—but ſee he comes here, and's Father with him; my gall
+riſes at ſight of him, and all my friendſhip turns to hate, but this is
+not a time nor place.</p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena, 5.</head>
+               <stage>Geronte, Dorant, Clyton. The Ladies at the Window moſt part
+of this Scene.</stage>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Stay <hi>Dorant,</hi> and let's reſt a while, I'm weary and
+out of breath with walking; and what think you of</p>
+                  <l>theſe buildings? are they not fair?</l>
+                  <l>and the Architecture excellent and rare?</l>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>
+                     <hi>Paris</hi> appears to me</p>
+                  <l>A City of ſome Romance, or Inchanted Ile</l>
+                  <l>I left a Deſart and find ſo built the while,</l>
+                  <l>
+                     <pb n="16" facs="tcp:61187:12"/>As if ſome <hi>Amphion</hi> without
+Maſons Aid,</l>
+                  <l>Had all its Palaces out o'th quarries made.</l>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>
+                     <hi>Paris</hi> every day beholds as ſtrange
+<hi>Metamorphoſes</hi> as theſe, to ſee whoſe <hi>Temples</hi> and
+<hi>Palaces</hi> you'd ſwear that <hi>Kings</hi> and <hi>Gods,</hi> did only
+inhabit here: but leaving this Diſcourſe—you know <hi>Dorant</hi> how
+much I love you?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I do, and am moſt happy in the knowledge of it.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>In a word then—Conſidering the danger that youth and
+honour may dayly expoſe you to, i'th perilous courſe you have taken having
+no other Son but you to give ſome allay unto your youthful heat, and to
+prevent that honorable danger I am reſolv'd to marry you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Oh dear <hi>Lucretia.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And have choſen a Wife for you, both Noble, Rich and
+Handſome.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I beſeech you Sir take ſome longer Time to conſider
+on't.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>There needs no further conſideration; all <hi>Paris</hi>
+affords not a better nor fitter choice than the fair and vertuous
+<hi>Clariſſa;</hi> whoſe Father (my Ancient friend) and I have already
+con<g ref="char:EOLhyphen"/>cluded the marriage—why d'ye look ſo ſtrangely?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Alas Sir you make me tremble to think o'th heavy weight I'm to
+under-go, <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>'re my youthful years
+have force and ſtrength enough to ſupport the burthen.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Go to, leave theſe excuſes for I'll have it ſo.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No wayes to prevent it— 
+<stage>Aſide.</stage> what Sir wou'd you have me marry now e're
+I've gain'd an honourable Fame by War-like deeds, unto our Houſe and
+Name?</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>I marry will I Sir, e're by your War-like deeds you come fairly
+to be knockt o'th head, I'de have you marry and get an Heir to inherit in your
+ſtead when you are gone and be a comfort unto me, and ſupport unto our
+Houſe and Name, d'ye ſee? come ne'r diſpute of't, for I'll have it
+ſo.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But what if't be impoſſible Sir?</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>How impoſſible!</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I humbly at your feet Sir demand your pardon, for I'm—</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>What?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Being at <hi>Poictiers</hi>—</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>What?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Since you'll needs have it Sir, I'm—married already!</p>
+               </sp>
+               <sp>
+                  <pb n="17" facs="tcp:61187:12"/>
+                  <speaker>Ger.</speaker>
+                  <p>How! without my conſent?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>You may do what you pleaſe Sir—but I could not help it,
+I was forc't unto't by the ſtrangeſt accident, the fa<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap> chance—oh did you but know Sir!—</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Tell me and conceal nothing from me.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>This I can aſſure you Sir, the Gentlewoman is very well
+deſcen<g ref="char:EOLhyphen"/>ded, though not altogether ſo rich as you may deſire perhaps.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>For that we ſhall talk more hereafter; what's her Name?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>
+                     <hi>Orphiſia</hi> Sir, and her Father's <hi>Armedon.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>
+                     <hi>Orphiſia</hi> and <hi>Armedon!</hi> they're names I never
+heard of—well, on.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>At my firſt arrival Sir I chanc'd to ſee this conquering
+Beauty, who had ſoon reduc'd me to that ſweet Thraldom and amiable
+Servitude, from which I neither would, nor could be free,</p>
+                  <l>Having then no other thought or care</l>
+                  <l>But only of ſerving her,</l>
+                  <l>Six months were ſcarcely gone and paſt,</l>
+                  <l>But by my aſſidual ſervices at laſt,</l>
+                  <l>I gain'd her affection, and was ſo happy to be,</l>
+                  <l>As much belov'd by her as ſhe by me:</l>
+                  <p>in which happy ſtate I long continued, till one Night late
+('twas the ſecond day of <hi>September,</hi> I ſhall never forget the
+day)</p>
+                  <l>Harmleſly diſcourſing with her in her Chamber all
+alone,</l>
+                  <l>Her Father having Sup'd that night abroad came home.</l>
+                  <l>And knock'd at her chamber door; when ſhe</l>
+                  <l>All ſurpriz'd at his coming, having firſt hidden me</l>
+                  <l>Behind the Bed, ran and open'd him the door,</l>
+                  <l>Who ſitting down began to diſcourſe with her</l>
+                  <p>of Marriage, and ſaid he had provided a husband for her;
+(imagine what ill News this was for me?) In fine, ſhe anſwer'd him ſo
+diſcreetly as for that Time he was ſatisfied, and juſt bidding her good
+night, when my <hi>Watch</hi> ſtrook; at which ſtart<g ref="char:EOLhyphen"/>ing, <hi>What Watch is
+that</hi> (quoth he,) <hi>or who gave it you?</hi> quoth ſhe, <hi>my
+Cozen</hi> Acaſte <hi>has ſent it me out of the Country to get it
+mended;</hi> quoth he again <hi>Let's ſee't,</hi> when ſtrait ſhe ran to
+me behind the Bed to fetch it; when behold the ſtring of it being intangled
+in the Cock of my <hi>Piſtol</hi> (I carried ready bent,) off went the
+<hi>Piſtol:</hi> when imagine the amazement and aſtoniſhment of all:
+ſhe all a<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>righted
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> a ſound, he no leſs
+frighted ran out, crying<pb n="18" facs="tcp:61187:13"/>Thieves, and Murther, and
+preſently return'd again and three or four with him, all withdrawn Swords,
+when inſtantly drawing mine, I ſoon had made my way through the midſt of
+them, had not my Sword unfortunatly broke in three pieces; after which ſeeing
+no other way, I retir'd back again into her Chamber, when ſhe (recovered by
+this time) out of her care of me, juſt as I enter'd, clapt to the Door, and
+ſhut them out; when they more furious grown, ſtrait went about to break the
+door open, and we as faſt within to Barricado it, with Tables, Chairs and
+Cheſts, and all we cou'd heap againſt it: In fine, this Seige we held out
+long to gain Time, and reſpit Danger, till at
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> breaking down the Wall upon us,
+I was ta'n all unarm'd and defenceleſs, and fain to come to compoſition
+with them for my life.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Which was, in plain Engliſh, to marry her.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>True <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ir—and
+how could I do leſs taken as I was alone with her by night? The ſcandal
+great, the danger of her honour and my life moſt evident, and they the
+ſtronger; but above all, her beauty made more lovely by her Tears;</p>
+                  <l>And Love chiefly in that occaſion ſhown</l>
+                  <l>More caref<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap> of my
+ſafety than her own,</l>
+                  <p>was that which chiefly conquer'd me, and made me yeild,
+willingly to do that I'de elſe bee<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> forc'd unto and ma<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ry
+her ſtrait;</p>
+                  <l>So 'voiding danger, and rend'ring all parts content,</l>
+                  <l>To which I humbly here beg your conſent,</l>
+                  <l>My Love and Affection being to her ſo great,</l>
+                  <l>And ſhe ſo every wayes deſerving it,</l>
+                  <l>You muſt reſolve to ſee me married</l>
+                  <l>Unto <gap reason="illegible" resp="#OXF" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> or elſe
+to ſee me dead<g ref="char:punc">▪</g>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Heaven forbid I ſhou'd be ſo hard-hearted and unnatural,
+eſpecially thou having done nothing but what I ſhou'd have done my ſelf
+in thy Eſtate<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>—all that I
+blame in thee is only t'have ſo long conceal'd from me your
+Marriage<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Alas, I durſt not tell you Sir, by reaſon ſhe was no
+richer.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Suffices ſhe loves you, and you love her; and if ſhe be ſo
+well born, diſcreet and fair, as you report her, and have ſuch ſtore of
+other perfections, ſhe's rich enough and I deſire no more, Farewell<g ref="char:punc">▪</g>
+I'le to <hi>Clariſſa's</hi> Father ſtrait and diſengage my promiſe 
+<pb n="19" facs="tcp:61187:13"/>of marrying you unto his Daughter.</p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena 5</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Now <hi>Clyton,</hi> have I not finely gull'd and cozen'd the
+Old man, with aſtory of mine own Invention?—ſome fools now, in my
+Caſe wou'd not have known what to have done, but whyn'd and cry'd and
+ſuffered themſelves to be married againſt their wills; thou ſeeſt now
+how neceſſary it is to lye ſometimes to purpoſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And was all this but a <hi>Lye</hi> then?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Not a word of it true, but all invented purpoſely to prevent
+my Marriage with <hi>Clariſſa.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>The <hi>Watch!</hi> the <hi>Sword!</hi> and
+<hi>Piſtol!</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>All, fain'd and only a Maſter-piece of mine own invention.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>For Heavens Love Mr. Then, if ever you'd oblige your poor
+ſer<g ref="char:EOLhyphen"/>vant, give me ſome ſign hereafter when you go about to <hi>lye</hi>
+and play any of theſe Maſter-pieces any more; for though, I know you pretty
+well, proteſt yet I was deceiv'd.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Well never fear, thou ſhalt be ſo no more, I'll make thee
+hereafter, the Secretary of all my Thoughts, and Cabinet of all my Secrets.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And with all theſe qualities I fear I ſhall hardly keep my
+ſelf from being deceiv'd by you agen; but touching your Amours
+Maſter—this Lady.</p>
+               </sp>
+            </div>
+            <div n="6" type="scene">
+               <pb n="20" facs="tcp:61187:14"/>
+               <head>Scena 6.</head>
+               <stage>Sabina, Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>With me fair Maid?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Pleaſe you read that Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>From whom?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>From <hi>Lucretia.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Ha!—Kiſs her fair Hand 
+<stage>Reads.</stage> and ſay I ſhall not fail to wait on
+her.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I ſhall.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Now <hi>Clyton!</hi> what think you! you had beſt ſay, the
+Lady I ſpoke withall to day was not <hi>Lucretia;</hi> behold her Letter
+here, inviting me this Night to come to ſpeak with her, at her Window, and
+what has the other to do to write to me, to whom I ne'r ſpoke word?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I know not what to ſay, but without more diſpute, have
+patience only till Night, and you will know by her voice (at leaſt) whether't
+be ſhe or no.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Mean time<g ref="char:punc">▪</g> go thou as ſecretly as thou canſt and inform
+thy ſelf of her Birth and Parentage, and what fortune ſhe has.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I will.</p>
+               </sp>
+            </div>
+            <div n="7" type="scene">
+               <head>Scena 7.</head>
+               <stage>Lycas, Dorant.</stage>
+               <sp>
+                  <speaker>Lyc.</speaker>
+                  <p>Sir. 
+<stage>gives him a Note.</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What more Letters?</p>
+                  <stage>Reads.</stage>
+                  <floatingText type="letter" xml:lang="eng">
+                     <body>
+                        <opener>
+                           <salute>Sir,</salute>
+                        </opener>
+                        <p> 
+                           <hi>Having received an Injury from you I ſhou'd deſire to
+meet you in the Mail with Sword in Hand.</hi>
+                        </p>
+                        <closer>
+                           <signed>Alcippe.</signed>
+                        </closer>
+                     </body>
+                  </floatingText>
+                  <p>
+                     <pb n="21" facs="tcp:61187:14"/>Tell him I ſhall not fail; why this is
+pretty! I arrived here but yeſter Night, and to day's the firſt ſight of
+me, yet I've got a Miſtriſs, a Marriage, and a Quarrel already; I want but
+a Proceſs to make an end of me: Om! I'd forbid any in ſo ſhort a Time, to
+have more buſineſs on their backs at once, or more difficult and dangerous
+on's; ſend me good luck with them—but let's go ſee what my old Friend
+<hi>Alcippe</hi> wou'd have with me.</p>
+               </sp>
+            </div>
+            <trailer>Finis Actus Secundi.</trailer>
+         </div>
+         <div n="3" type="act">
+            <pb n="22" facs="tcp:61187:15"/>
+            <div n="1" type="scene">
+               <head>Actus tertius. Scena prima.</head>
+               <stage>Dorant, Alcippe, Philiſt.</stage>
+               <sp>
+                  <speaker>Phil.</speaker>
+                  <p>Y'Ave both done as befits valiant men, and I'm moſt glad it
+was my happy chance to arrive here in time to part you, and make you friends,
+whilſt you were on equal terms, and no advantage on either
+ſide—ſomewhat a rare Adventure.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>To me I'm ſure it was, who fought with as much Phlegm, as he
+with Choller all this while, not knowing the reaſon why, which pray
+<hi>Alcippe</hi> now declare, that if you have conceiv'd any cauſeleſs
+jea<g ref="char:EOLhyphen"/>louſie, or any by falſe reports has injur'd me, I, before him may clear
+my innocence.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>You know it well enough—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>May I periſh if I do, or ever (as I know of) ſaid, or did
+any thing that might offend you.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Since you'l needs have it, d'ye think it was no offence, to have
+gi<g ref="char:EOLhyphen"/>ven Ball, Muſick, and Collation, to Night, to a Lady I long had lov'd, and
+now was juſt on terms to make my wife?—</p>
+                  <l>And more to increaſe the injury and diſgrace,</l>
+                  <l>To have boaſted of it too before my face;</l>
+                  <p>and how you had lain privately in Town this month, upon deſign
+only to do me this ſenſible affront: d'ye think all this (now) was no
+offence?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>See how y'are deceiv'd? and how little reaſon you have for
+your jealouſie? She I gave a Treat to, is married, and one I'm ſure you
+never ſaw, lately come to Town on ſome affairs.—Does this ſatisfie
+you?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>How was I deceiv'd?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And if I had not given you ſufficient proof of my valour
+already, and how I fear you not, I ſhould not give you this ſatisfaction
+now.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>If this be ſo I am moſt glad, our quarel's ended, and the
+atonement made.</p>
+               </sp>
+               <sp>
+                  <pb n="23" facs="tcp:61187:15"/>
+                  <speaker>Dor.</speaker>
+                  <p>And ſo am I. But let me intreat you <hi>Alcippe,</hi>
+hereafter to give leſs credit to your jealouſie, and conſider better what
+you do before you challenge any one, leſt you begin there where you ought to
+end; and ſo I leave you, and am your Friend and ſervant.</p>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>Scena 2.</head>
+               <stage>Alcippe, Philiſt.</stage>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>What, ſad ſtill?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Alas, I'm but recovered from one trouble, to fall into a
+greater; for who ſhould have given this Muſick and Collation to
+<hi>Clariſſa,</hi> if he did not? or who ſhould I call to account for
+it?</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>Whoſoever gave it, aſſure your ſelf,
+<hi>Clariſſa</hi> was not ſhe 'twas given unto, (as I'm credibly
+inform'd) but <hi>Daphne</hi> and <hi>Hippolita;</hi> and 'twas only your Pages
+Errour, who ſeeing <hi>Clariſſa</hi> enter <hi>Lucretia</hi>'s, and
+ſtrait two Ladys mask'd come out again, take Coach, drive to the River
+ſide, light and take Barge there, a Collation brought and Muſick too,
+imagin'd it was ſhe and <hi>Lucretia;</hi> which being ſo, no wonder your
+Page, being firſt deceiv'd himſelf, ſhou'd afterwards (as he did) deceive
+you too.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>D'ye think it was no otherwiſe?</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>I'm certain of't; nay more, am ſure all night ſhe ne'r
+ſtir'd out of door.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>This more and more troubles me. What a wretch was I then, to
+quarel and wrangle with her, as I did, for nothing?</p>
+               </sp>
+               <sp>
+                  <speaker>Phi,</speaker>
+                  <p>For that I'll make your peace; as for <hi>Dorant</hi> the Author
+of all this trouble, who told us ſo many ſtories of his being in Town this
+month, and viſiting <hi>incognito,</hi> an <hi>incognita,</hi> with all the
+particulars of his ſumptu<g ref="char:EOLhyphen"/>ous feaſt, know he only yeſterday came to Town,
+and all night too never ſtir'd from home.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>And what the Collation?</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>All a meer fiction; Or if he gave any 'twas only in a dream.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>It cannot be—<hi>Dorant</hi> is valiant, as by his brisk
+anſwer of my challenge in this laſt Encounter, I've experienc'd, and i'th'
+School of Valour men do not learn to lye; o'th' contrary a valiant man had
+rather dye<g ref="char:punc">▪</g> 
+                     <pb n="24" facs="tcp:61187:16"/>than ſuffer ſo foul aſperſion and
+ſtain to be fix'd upon his Name—wherefore I can't believe it.</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>
+                     <hi>Dorant</hi> it ſeems is Valiant by Nature, and only a Lyar
+by Cuſtom; however pray hereafter caſt this jealouſie away, and let us
+admire our own ſimplicity, cou'd believe a ſtory ſo incredible, that a
+Collation of ſix Services, twelve Diſhes at every one, four conſorts of
+Muſick, with Fire-works, and I know not what, cou'd all be provided in an
+hour or two's time, as if the Collation had been given in ſome of our
+Theatres, and with machins let down from Heaven. Thoſe who could credit it,
+had far more faith than wit. I ſaw this Fiction agreed but ill with the
+Relation of the Page, how the Muſick was but ſo ſo, and the Collation
+only a Diſh or two: wherefore think no more on't.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>This was my blind jealouſie now, that only ſees with the
+Eyes of falſe imagination, and believes all true that it imagines: but
+leaving <hi>Dorant</hi> with his bold Fictions, I'll to <hi>Clariſſa</hi>'s
+and ask her pardon.</p>
+               </sp>
+               <sp>
+                  <speaker>Phi.</speaker>
+                  <p>Better ſtay till to morrow, when I may have made your way, by
+telling her all this ſtory, and making her laugh again to ſee how finely we
+were deceiv'd by him. The firſt heat of Choller's always moſt vehement, and
+'tis not fit you incurre her full anger, till I before-hand have diſſipated
+it.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>And if the uncertain light of the Evening deceive me not, I
+perceive her coming with <hi>Iſabella</hi> there. I'll follow your advice
+then and avoid her ſight till ſhe may have laugh'd at my jealouſie, and
+pardon it and me.</p>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>Scena, 3.</head>
+               <stage>Clariſſa, Iſabella.</stage>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Come <hi>Iſabella</hi> let's go to <hi>Lucretia</hi>'s.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſ.</speaker>
+                  <p>There's time enough, it is not yet ſo late,—Y'are much
+oblig'd to her; for no ſooner I had told her what you deſir'd, 
+<pb n="25" facs="tcp:61187:16"/>but inſtantly ſhe diſpatch'd <hi>Sabina</hi> with the
+Letter.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And I ſhall be as ready to ſerve her another time. But
+didſt obſerve how this <hi>Dorant Geronte</hi>'s Son, whom he commended
+ſo much, is the ſelf-ſame Gentleman we ſaw in the Garden to day?</p>
+               </sp>
+               <sp>
+                  <speaker>Iſ.</speaker>
+                  <p>I did, and was much ſurpriz'd at it, and ſo was
+<hi>Lucretia,</hi> who mark'd it as well as I<g ref="char:punc">▪</g> And do you continue your
+reſolution ſtill of ſpeaking with him?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I know not—he does ſo lye.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>And is that ſo ſtrange? <hi>Dorant</hi> is not the firſt
+young Schollar, who boaſts himſelf a Souldier, and tells you of Battails
+h'as fought, Sieges h'as been at, though never heard of 'em, but i'th'
+<hi>Gazzette;</hi>
+                  </p>
+                  <l>And forreign Countreys he had travell'd in,</l>
+                  <l>Which (but ith' Map too) he had never ſeen<g ref="char:punc">▪</g>
+                  </l>
+                  <p>to ingratiate himſelf with Ladies; knowing they love men o'th
+Sword, and love to hear them talk of wars and dangers they had paſt, and like
+them, when they ſee 'em, make themſelves not what they are, but what they'd
+have 'em be.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I know not what others are, but I'm ſure he's a Maſter ith'
+art of lying, and has made <hi>Alcippe</hi> quite mad with ſtories h'as told
+him, of muſick and collation given me yeſternight upon the water; judge you
+what likelihood, or where a word of it is true?</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>By this you may perceive how <hi>Dorant</hi> loves you, and how
+cunning a Lover he is, who knowing you lov'd <hi>Alcippe,</hi> firſt did
+ſet you two at variance, then preſently did get his father, to ſpeak to
+yours for you; ſo at once gaining the father, and in jealouſing for the
+nonce your other Lover, to gain you, which he has done in fine, and your
+marriage is concluded on.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I, as much as ever 'tis like to be.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>Won't you obey your father then?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Alas thou art quite wide, and underſtand'ſt nothing I ſee,
+of what is lately done; he's married unknown unto his father, who poor man came
+to mine with tears in his eyes, to break off the match betwixt us: now what
+ſay you of him?</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>If this be ſo, I'll ſay in my turn too, <hi>Dorant</hi> is
+an arrant Lyar, and needs muſt take delight in lying, <pb n="26" facs="tcp:61187:17"/>who'd make ſuch a lye as this without deſign? For more I think
+on't leſs I comprehend what ſhou'd be his end in it;—but if this be
+ſo why will you go and ſpeak with him? is't to chide him, or elſe to
+laugh at him?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>'Tis to tell him ſoundly of it, an't does me good to think how
+'ſham'd I ſhall make him.</p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>Faith 'twould do me more good to make him ſtarve i'th'cold,
+and never go.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>No,—I'll go only for curioſity—but ſoft I hear
+ſome coming, perhaps 'tis he, and through the obſcurity of the Evening he
+may chance to know me.</p>
+                  <p>I'll to <hi>Lucretia</hi>'s then, and there I may freely ſpeak
+with him, without all fear of being known, whilſt he'll take me for
+her,—<hi>Alcippe</hi> I perceive is like to be the man muſt marry me at
+laſt, (do what I can) when once he's well cur'd of his jealouſie, which
+he'll ſo on be when he knows as much as I.</p>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <head>Scena 4.</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>This is the time and place mentioned in the Letter.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Well, I have told you how her Father's one of the long Robe, and
+ſhe his only Daughter, as alſo what fortune ſhe has, an ancient Servant
+of the houſe has told me all; and now Maſter, if <hi>Lucretia</hi> had but
+a Talent of Lying as wellas you, I ſhou'd of have excellent ſport, to hear
+you two ſtrive to deceive one ano<g ref="char:EOLhyphen"/>ther, tell ſtory for ſtory, and pay you
+in your own Coin, and give you as good as you brought agen, how I ſhou'd
+laugh?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <l>No <hi>Clyton,</hi> I'd have thee know</l>
+                  <l>Heaven grants that favour but to few</l>
+                  <l>to lye as I do; they muſt have good memories,</l>
+                  <l>good wits, great care and induſtry;</l>
+                  <l>
+                     <pb n="27" facs="tcp:61187:17"/>And finally when they're put unto the
+puſh</l>
+                  <l>Indeed, come readily off, and never bluſh—</l>
+                  <p>but ſoft the window opens—let's draw nigh.</p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena 5.</head>
+               <stage>Clariſſa, Lucretia, Iſabella <hi>above,</hi> Dorant,
+Clyton <hi>below.</hi>
+               </stage>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>
+                     <hi>Iſabella</hi> ſtand you centinal whilſt I ſpeak with
+<hi>Dorant.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Iſa.</speaker>
+                  <p>I ſhall, and advertiſe you when any comes.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Yes, he recounted all your ſtory to my Father—but
+ſpeak with him under my Name, and I'll be ſilent the while.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Who's there <hi>Dorant?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Yes, Lady, it is I, your humble ſervant, and ſo I'll live
+and dye.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>He goes on in making love to ye.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>He goes on, with diſſembling I'm ſure on't—I fear
+he'll know me by my voice.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Well, Maſter, I confeſs y'are in the right this once, 'tis
+ſhe I'm certain now.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>'Tis I Lady who willingly would efface out of my lives account,
+all other days I might have lived, without loving you,</p>
+                  <l>Who find living, without ſeeing you, ſuch a pain,</l>
+                  <l>As 'tis not life but rather death again,</l>
+                  <p>And ſuch a lingring torment finally,</p>
+                  <l>As whoſoever ſuffers, needs muſt ſay,</l>
+                  <l>There's no life but in loving fair <hi>Lucretia.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Hey day! now h'as about with you too; he makes love by turns it
+ſeems to every one,</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>He loves to lye to every one by turns I'm ſure.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>In obedience then to your Commandment,</p>
+                  <l>I'm come to offer my life here at your feet,</l>
+                  <l>And ſhou'd dye moſt content ſo you'd accept of it.</l>
+                  <p>Tell me Lady what you pleaſe to command me now?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I thought to ſpeak with you about a certain buſineſs, but
+now I find it impoſſible—'tis to no purpoſe.</p>
+               </sp>
+               <sp>
+                  <pb n="28" facs="tcp:61187:18"/>
+                  <speaker>Dor.</speaker>
+                  <p>How impoſſible? nothing Lady that you command, can be
+impoſſible for me to do.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Excepting only to marry, for that you can't being married
+already.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How, I married? Ha, ha, ha! they only jeaſted w'ye that told
+you ſo.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Was ever greater impoſtor?</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>He can do nothing elſe but lye.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No, far be it from me, and if any—</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>You think I believe you now?</p>
+               </sp>
+               <sp>
+                  <speaker>Do,.</speaker>
+                  <p>May Thunder ſtrike me dead, if ever I was—</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Nay, I know all lyars are prodigal of their oaths.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No Lady, if y'ave any thought of me that may be balanc'd by this
+falſe report, let it no longer hold you in ſuſpence, of what I can
+eaſily juſtifie to be true.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>To hear how ſeriouſly, and with what aſſeveration he
+advances a lye, you'd think 'twere true.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>To rid you of your doubt Lady, ſo you be pleas'd Ill marry you
+inſtantly.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And ſo you'd a Thouſand more if they'd believe you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Make but your words good and I ſhou'd be in ſuch reputation
+here I ſhou'd have thouſands to envy me.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>In ſuch reputation (no doubt of it) as he deſerv'd ſhou'd
+boaſt himſelf ſuch a thunder-bolt of War yet ne'r was there, ſhou'd
+tell us he had been in <hi>Paris</hi> almoſt a year a courting Ladies, yet
+came but yeſterday from <hi>Poictiers,</hi> who gives Muſick, Collation,
+and Ball a nights to Ladies onth' water, yet all night at home ſleeps quietly
+in his bed; and who finally ſayes he's married, and preſently unſayes it
+again: this is a fine way now to get you credit and reputation! and tell me
+what's lying I pray, if this be none?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Now Maſter, I'll ſay y'are your crafts-maſter indeed if
+you come well off here.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Fear not <hi>Clyton,</hi> every thing in its
+time.—Touching all theſe particulars, Lady I ſhall give you ſuch
+reaſons hereaf<g ref="char:EOLhyphen"/>ter as I doubt not but will fully ſatisfie you. Now to come
+to the moſt important,—I feign'd this marriage, (for why ſhou'd I
+make difficulty to confeſs that to you, you muſt needs commend in me) I
+feign'd it I ſay,<pb n="29" facs="tcp:61187:18"/>and you blame me for't; but what if you
+were the only occaſion of't?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla</speaker>
+                  <p>I!</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Pray hear me out; the love I bear to you—</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Pray maſter tell me if y'are going about to lye or no?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Hold your peace, Sirrah, or Ill pluck that ſaucy tongue of
+yours out of your head—The love I bear to you, I ſay, not permitting my
+father ſhou'd marry me to any one but you alone—</p>
+               </sp>
+               <sp>
+                  <speaker>Luc</speaker>
+                  <p>Now he begins to tell a new lye,—hark.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I feign'd this marriage purpoſely to keep my ſelf free from
+marrying any one but you: now go—and call me Lyar, and Impoſtor, and
+what you will, ſo you call me your faithful Lover too; and blame me if you
+pleaſe for this feign'd marriage, ſo by this Fiction I may conſerve me
+conſtant to you alone.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I have reaſon to ſuſpect this love Sir, 'tis ſo hot and
+vehement at firſt; for how cou'd my eyes inkindle in you ſo great a flame?
+y'ave ſeen but once and do not know me yet?</p>
+               </sp>
+               <sp>
+                  <speaker>D<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r.</speaker>
+                  <p>How, not know you! Is not your Mother dead? Is not your Father's
+Name <hi>Pariander,</hi> a grave and ſober Counſellor? was not
+<hi>your</hi> Brother ſlain i'th' Wars of <hi>Italy?</hi> Had you not a
+Siſter call'd <hi>Julia?</hi> Now go, and doubt I pray whether I know
+<hi>you</hi> yet or no.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Now Couzen I ſee plainly 'tis you he means, and you he makes
+love to.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>I would it were. 
+<stage>aſide</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>But I'll know all before I've done.—Well, Sir, at
+importunity of ſome Friends I thought to ſpeak with you con<g ref="char:EOLhyphen"/>cerning
+<hi>Clariſſa,</hi> and pray tell me, is't true you intend to marry her?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How, I to marry her? beſeech you no more of this; I've
+diſcover'd t'ye the very bottom of my heart, where you muſt needs ſee I
+feign'd this marriage only for love of you, for whom I've nothing but
+affection, as I've nothing but averſion for <hi>Clariſſa.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Yet let me tell you, Sir, ſhe's not ſo contemptible as you
+make her, and there are others don't deſpiſe her, though <hi>Lucretia</hi>
+ſeems the fairer in your eyes.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I, ſh'as one main fault though—</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>What's that?</p>
+               </sp>
+               <sp>
+                  <pb n="30" facs="tcp:61187:19"/>
+                  <speaker>Dor.</speaker>
+                  <p>Why, I can't abide her, that's enough,—and for my part I
+ſwear, I'll be married in <hi>Turkie</hi> rather than marry her.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And yet they ſay you gave her your hand, and courted her very
+amorouſly to day.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Who I? no ſuch matter I proteſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>D'ye hear the impoſtor? 'tis a wonder he does not ſwear.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>May Heaven—</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Did I not tell you?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>May Heaven I ſay, ne'r proſper me, if I ſpoke to any one
+but you to day.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I can no longer indure his impudence—</p>
+                  <l>How dare you deny that and forſwear it too,</l>
+                  <l>Which I my ſelf to day did ſee you do?</l>
+                  <p>Hence avoid my ſight, and pray know, I ſent for you only to
+make ſport with you; who love to laugh and make me ſport ſometimes with
+better wits than yours, I'd have you know.</p>
+               </sp>
+            </div>
+            <div n="6" type="scene">
+               <head>Scena 6</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Well, you ſee now all's diſcover'd.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I, and I'm almoſt at my wits end with it too.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Mean time you may glory in your good ſucceſs, and how you
+have gain'd a notable acceſs</p>
+                  <l>Unto your Miſtriſs by't; and if I be
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>e</l>
+                  <l>importunately with my preſence troubles ye,</l>
+                  <p>and makes you ſay all this by intelligence now.—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Perhaps 'tis only ſo—what thinkſt thou?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I think 'tis a pretty perhaps.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Well, don't think for all this I'll quit my part of her.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Faith Maſter, if <hi>your</hi> part of her were to be ſold,
+and <hi>ye</hi> chanc'd to meet <hi>with</hi> a good Chapman for it, I'd
+counſel <hi>you</hi> to let him have a good pennyvvorth of this hidden
+treaſure <hi>by any</hi> means, hovvever <hi>your</hi> hopes flatter
+<hi>you</hi> to the <hi>contrary.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Wonder! ſhe ſhould give no more credit to <hi>my</hi> Words
+<hi>yet?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Why, <hi>you Lye</hi> ſo <hi>abominably,</hi> 
+                     <pb n="31" facs="tcp:61187:19"/>who can believe you?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But I told her nothing but the very truth.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I, but when a Lyar ſays it, only paſſing through his
+mouth, it loſes all its credit.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I'll try then if from anothers mouth ſhe will believe it
+better, and treat me with leſs rigour hereafter.—Their humours are as
+variable as the moon, and ſometimes they follow who fly 'em; ſometimes
+agen. fly thoſe who follow 'em.—Well, I'll to Bed, and take counſel
+of my Pillow;</p>
+                  <l>To morrow 'twill be day.</l>
+                  <l>And nights the beſt counſellor,—let's away.</l>
+               </sp>
+            </div>
+            <trailer>Finis Actus tertii.</trailer>
+         </div>
+         <div n="4" type="act">
+            <pb n="32" facs="tcp:61187:20"/>
+            <div n="1" type="scene">
+               <head>Actus quartus. Scena prima.</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>WHy Maſter, what mean you to riſe ſo ſoon? they are not
+up at <hi>Lucretia</hi>'s, it is too early day.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No matter, I've choſe this place as moſt proper to reve in,
+where beholding her window, I may entertain my amorous thoughts, and wholly
+poſſeſs my mind with her dear <hi>Idea<g ref="char:punc">▪</g>
+                     </hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Now you talk of reving Maſter, have you bethought you of a
+remedy for your laſt diſgrace yet?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I have, and 'tis the ſame thou taughteſt me yeſterday for
+ſo ſove<g ref="char:EOLhyphen"/>reign and approved one, to be liberal enough—</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Right, provided you rightly apply your liberality to ſome
+<hi>Coquett</hi> or other.—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I underſtand, and know <hi>Lucretia</hi> is too noble and
+generous to take, or to be ta'en with gifts and preſents: but her Maids have
+hands and tongues too, that may be untied with Bribes. And howſoever ſhe
+diaſpprove it, ſhe has Ears too, to hear 'em when they ſpeak; and it
+ſhall go hard, but I'll gain ſome of 'em, and ſhe who brought me the
+Letter yeſterday I think the fitteſt; whom I do not doubt to gain if I pay
+her well for her pains, as I intend.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I'll warrant ye maſter, for 'tis my own humour right, to be
+always moſt kind and complacent to thoſe who give moſt, and count them my
+chiefeſt friends.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>There are enough of thy humour.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>But maſter, in attending <hi>Sabina</hi> and the operation of
+our remedy, have you heard the Rumour of <hi>Alcippe</hi>'s Duel?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No, with whom?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Some ſay with you; and but I can be anſwerable for you all
+this day, I ſhould believe it elſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And did not I ſend thee to <hi>Lucretia</hi>'s?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Umh—and waſt for that you ſent me? I begin to ſmell
+ſomewhat.</p>
+               </sp>
+               <sp>
+                  <pb n="33" facs="tcp:61187:20"/>
+                  <speaker>Dor.</speaker>
+                  <p>Yes faith 'twas I that fought with him, though I reſolv'd to
+keep it ſecret; but from thee, the only Secretary of my thoughts, and Cabinet
+of all my ſecrets, I can conceal nothing. Know then, about ſome five or
+ſix months ſince we had a quarell at <hi>Poictiers,</hi> where though we
+were ſeemingly reconcil'd, there paſt a ſecret Engagement 'twixt us two
+to fight next time we met; and feigning to embrace we whiſper'd a Challenge
+into each others ears; when ſending thee away, away we went without any
+Seconds; and in a paſs or two I quickly diſpatch'd my Gentleman, running
+him twice through the body and leaving him out of all danger of ever being
+ſick again, and welt'ring in's gore.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And did you kill him then?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Dead, dead, and ſo I left him.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Introth I'm ſorry for't, he was a very honeſt Gentleman.
+Alack! alack!</p>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>Scena 2.</head>
+               <stage>Alcippe, Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Dear friend! happily met, I come to make thee partaker of my
+joy; my father—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What of him?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Is newly arriv'd.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I thought he had been dead I, thou wert ſo glad; this is a new
+and extraordinary kind of joy in a ſon like thee, for a Fathers arrival.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>I ſhould have told thee (but that a mind wholly preoccupied
+with joy, imagines every one knows it as well as they) that my marriage with
+<hi>Clariſſa</hi> only attended his arrival for its final accompliſhment,
+and now at laſt he's happily arriv'd.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How could I imagine this? but I'm moſt glad, and congratulate
+your happineſs.</p>
+               </sp>
+               <sp>
+                  <pb n="34" facs="tcp:61187:21"/>
+                  <speaker>Cly.</speaker>
+                  <p>This place is proper for you to Reve in, Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And you'r going thither now?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>I am. and could not but make you participate of the good news by
+the way.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Y'ave much oblig'd me in't.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>All thoſe you kill'd, Sir, are alive and well you ſee.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>So then you fear no farther impediments in your Amours?</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>How can I? All parties being ſo well agree'd.—.Dear
+friend, pardon the impatience of a Lover; I've left my father repoſing
+himſelf after his Voyage, and have ta'en the occaſion to viſit my
+Miſtreſs the while: farwell.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Farwell and may your marriage prove as happy and fortunate as
+you deſire.</p>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>Scena 3.</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And is this he that's dead? well, Maſter, I did not think
+you'd have us'd me thus, <hi>the only Secretary of your thoughts, and Cabinet
+of all your ſecrets:</hi> but I perceive with all theſe qualities, one
+ſhou'd have much ado not to be deceive'd by you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Doſt think this combat then was nothing? and only a ſtory of
+mine own invention?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I can't tell, I ſhou'd be glad to believe any thing rather
+than diſ<g ref="char:EOLhyphen"/>pleaſe you, Sir, but you invent ſo many every day, and every
+where, as 'tis a particular grace of heaven if any eſcape being deceiv'd by
+you: You ſpare none, Turk, Jew, nor Chriſtian, all's one to you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why ſhou'dſt thou think it ſo ſtrange <hi>Alcippe</hi>
+ſhou'd be recover<g ref="char:EOLhyphen"/>ed ſo ſoon o'th dangerous wounds I gave him? Didſt
+never hear of that ſource of life call'd by us Warriours the
+<hi>Sympathetique</hi> Powder, that every day works ſuch ſtrange and
+miraculous effects?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>But none ſo ſtrange and miraculous as this, that a man twice
+run through the body, and left in the field for dead, ſhould next day appear
+abroad, all whole, and ſound.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I grant you, your ordinary <hi>Sympathetique</hi> Powder works
+none of theſe ſtrange effects? but <hi>Clyton,</hi> I have the Receipt of
+making one<pb n="35" facs="tcp:61187:21"/>vvith <hi>Promethian</hi> fire, ſhall recall a
+man from death to life again, in the twinkling of an Eye.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Teach me the Receipt Sir, and I'll promiſe you to ſerve you
+<hi>gratis</hi> hereafter.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why, I will, and make thee rich for ever; but now I think on't
+the ſecret conſiſts in certain <hi>Hebrew</hi> Words ſo hard, and
+difficult to pronounce, as 'twould be a treaſure wholly caſt away upon
+thee.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And can you ſpeak <hi>Hebrew</hi> then?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>That I can, and nine or ten other languages beſides.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Faith, and ſo y'ad need, and good ſound ones too, to tell
+ſo many Lyes: You mince them as ſmall as Herbs to the Pot, and muſt needs
+be full of verity within, for I never ſaw any yet come out of you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Pitty thy ignorance, but ſee my Father here.</p>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <head>Scena 4.</head>
+               <stage>Geronte, Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>O <hi>Dorant,</hi> I have been looking for you!</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But I look'd not for you, what miſchievous luck had I to meet
+with him 
+<stage>aſide.</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Conſidering the ſtrait union of marriage, methinks I have
+not conſented at all to thine, to ſuffer thee to live ſo long from thy
+wife, and be th' occaſion of ſeperating thoſe Heaven has conjoyn'd; I m
+thinking then to write to your Father-in-Law, how glad I am to underſtand
+you'r married to ſo fair and virtuous a Gentlewoman as his Daughter; and how
+I count our Family highly honour'd, with the alliance it has with his.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Your Civilities ſir, will much ſurprize him.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And ſignifie withall the longing deſire I have to ſee her
+here; and how I intend to ſend you for her; for to ſend a ſervant wou'd
+have no grace, and ſhew a want of reſpect and eſteem of her.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>You may do your pleaſure, ſir, and I'm ready to undertake
+the Voyage; but 'twill be to no purpoſe, for I'm ſure he wont let her
+come.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>How ſo?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why—ſhe's with Child ſir,</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>How? with Child!</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Yes, ſir, and at leaſt ſix months gone.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>This is news rejoyces my very heart.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And I'm ſure you would not hazard her miſcarrying,
+ſir.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>By no means, my patience rather ſhall contend with my joy
+which ſhou'd be greateſt, ha! <pb n="36" facs="tcp:61187:22"/>with child! Heaven then I
+ſee has heard my prayer, and I'm moſt happy in't, I'll inſtantly go
+change my Letter then, and af<g ref="char:EOLhyphen"/>ter a few complements, deſire her father to
+have a ſpecial care of her deli<g ref="char:EOLhyphen"/>very, as that on which all my happineſs
+depends.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Poor Man! how glad he is?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Hiſt<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And do you write too, d'ye hear? to the ſame effect.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I ſhall Sir.—Good ſimple ſoul.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>S'lid peace, he comes again.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>I have forgot your Father in Law's Name now, how d'ye call
+him?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No matter, Sir, without giving your ſelf that trouble, when
+you have writ your Letter give it me, and I will write the
+Superſcription.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>'Twere better 'twere all of a hand though.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Your hand or mine, all's one.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>But theſe Country Gentlemen will eaſily take exceptions,</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>As for him he has been bred in Court.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Come, come what need all theſe excuſes &amp; delays tell me
+his name</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I have forgot now. 
+<stage>aſide.</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>When I ſay?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>
+                     <hi>Pyrander,</hi> Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>
+                     <hi>Pyrander!</hi> you told me another name yeſterday, and
+'twas <hi>Armedon</hi> now I remember me.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Right, Sir, that is his proper name, t'other only of a
+<hi>Signorie</hi> he has, by which he was call'd when he followed the Wars, but
+now, they call him by one and t'other, promiſcuouſly, now
+<hi>Pyrander,</hi> now <hi>Armedon.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Very likely, 'tis a common abuſe<g ref="char:punc">▪</g> warranted by cuſtom
+that, and I did ſo my ſelf in my younger days: but I'll about my
+Letter.</p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena 5</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Well, now, am I not come handſomly off?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I, but you ſee, a Lyar had need of a good memory.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Tuſh, when that fails a good wit ſupplies the want of
+it.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>But the truth of this cannot be long kept hid, 
+<pb n="37" facs="tcp:61187:22"/>and having taken you tripping once, they'll ſuſpect you
+at every turn, and <hi>Lucretia</hi> and <hi>Clariſſa</hi> know already how
+y'ave ſerv'd them, who offended at ſo ſenſible an affront, in juſt
+reſentment of the injury, will cover you all over with ſhame and
+confuſion in time aſſure, your ſelf.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Th'haſt reaſon for thy fears, and time putting me to my
+ſtraits, I'll ſeek preſently to engage my ſelf with <hi>Lucretia,</hi>
+and ſee, in good time, her Woman here.</p>
+               </sp>
+            </div>
+            <div n="6" type="scene">
+               <head>Scena 6.</head>
+               <stage>Sabina, Dorant. Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Dear <hi>Sabina,</hi> I was ſo tranſported yeſternight
+with joy o'th' good news thou brought'ſt me, I had no leiſure to reward
+thee for't; but thou ſhalt loſe nothing, by my deferring it: hold thee.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>O Lord Sir,</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Hold I ſay.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Indeed, you do me wrong, Sir, I am none of thoſe.—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Come.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Beſeech you, Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I ſay you muſt, and don't think me ingrateful unto thoſe
+who do me courteſies: there.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>What ado's here with her? out of mere pitty I muſt give her
+ſome few inſtructions—</p>
+                  <l>Hark ye, Sweet-heart, 'twixt you and I,</l>
+                  <l>One of your occupation ſhould fly</l>
+                  <l>This impertinent mincing, mumping, and ſimpering,</l>
+                  <l>Theſe cringes, reverences, and curteſing.</l>
+                  <l>Take what they give you without more ado,</l>
+                  <l>And if one hand ſuffice not ſtretch out two.</l>
+                  <l>For me, when any o'theſe golden ſhowrs do fall,</l>
+                  <l>I uſe to ſtretch out hands, and heart and all;</l>
+                  <l>They take on all hands in this age w'are in,</l>
+                  <l>And <hi>only</hi> to refuſe is counted ſin.</l>
+                  <l>Care not for fooliſh honour then a ruſh,</l>
+                  <l>One Bird i'th' hand's more worth than two i'th'
+buſh.—</l>
+                  <p>
+                     <pb n="38" facs="tcp:61187:23"/>Remember this d'ye hear, and to
+conclude,</p>
+                  <l>To make a friendſhip betwixt thee and me,</l>
+                  <l>If thou art content now I'll go halves with thee.</l>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Soft, Sir, that bargain's <hi>yet</hi> to make.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Look here <hi>Sabina,</hi> aſſure <hi>thy</hi> ſelf what I
+do for thee at preſent is nothing in compariſon of what I will do
+hereafter, if (as t'haſt done me the courteſie to bring this letter)
+thou'lt but return me this anſwer back agen.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>That I ſhall Sir, moſt willingly; but whether ſhe'l deign
+to re<g ref="char:EOLhyphen"/>ceive it and read it or no, I cannot promiſe <hi>you,</hi> but I'll do
+<hi>my</hi> beſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>See! ſhe's ſouple as a glove now, and as kind as a
+<hi>young</hi> ſimple country Bride.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No matter, give it her, and I'll ſtand to <hi>my</hi> venture
+for the reſt; the Ice is broke, and I hope ſhe has no ſuch great
+averſion from me,—within this hour I ſhall return to know what
+ſucceſs t'haſt had.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>And <hi>by</hi> that time, I ſhall be able to reſolve
+<hi>you.</hi>
+                  </p>
+               </sp>
+            </div>
+            <div n="7" type="scene">
+               <head>Scena 7.</head>
+               <stage>Clyton, Sabina.</stage>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Thou ſeeſt now <hi>my</hi> Maſter is a Man, whoſe deeds
+out-go his pro<g ref="char:EOLhyphen"/>miſes; and who makes no more of Gold, then Horſes of Litter
+which <hi>they</hi> trample under foot: and I'd have thee know, I can do
+<hi>any</hi> thing with him.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Why, then, make it rain but more of theſe golden ſhowres,
+and I'd have <hi>you</hi> know, I can do <hi>any</hi> thing with <hi>my</hi>
+Miſtreſs too.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Ah Sirrah! thou beginſt to have a feeling of theſe things I
+ſee.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Wou'd <hi>you</hi> ſhou'd well know, for all <hi>my</hi>
+mincing, mumping, and ſimpering, <hi>my</hi> cringing reverences, and
+curteſying, I am not ſo ſimple as <hi>you</hi> imagine me; but
+underſtand <hi>my</hi> office, and with <hi>my Mumpſimus</hi> know to
+<hi>play my</hi> Game as well as <hi>you</hi> with <hi>your Sumpſimus,</hi>
+I'll warrant <hi>you.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And if thou underſtandſt <hi>thy</hi> office ſo well, tell
+me prethee what hope for <hi>my</hi> Maſter to obtain his Suit? is
+<hi>thy</hi> Miſtreſs ſo inſenſible of his love as ſhe makes ſhew
+of?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Since <hi>your</hi> Maſter is ſo honeſt a Gentleman, and
+ſo liberal withall, I'll tell <hi>you,</hi> whatever ſhew ſhe makes,
+ſhe's no <hi>ways</hi> inſenſible <pb n="39" facs="tcp:61187:23"/>of his affection;
+and could hardly ſleep to night for thinking on him, and is half in love with
+him already, if I be not deceiv'd.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>What the Devil then made her uſe him ſo ſcurvily as ſhe
+did to Night? or what priviledge has ſhe to uſe her Lovers ſo, more than
+other women? I like not this love by halves, and wou'd have you know, my
+Maſter's worth your Miſtreſs at any time; and if he'd follow my
+Counſel, rather than be us'd a this manner, he ſhou'd even fairly leave
+her.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Let him not be too haſty though, for I tell ye aſſuredly
+ſhe loves him.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>She has but a harſh way of expreſſing it, though; and for
+my part, I underſtand not the method of it.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>You muſt know, ſhe holds a Woolf by the Ears of him (as they
+ſay) and wou'd fain love him, but dares not for her life, he's ſuch a
+horrible <hi>Lyar;</hi> and but yeſterday in the Garden, he told her ſo
+many Lyes, and to two or three others ſince, as 'tis a ſhame agen.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>But your greateſt Lyars tell truth ſomtimes.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>But ſhe's reaſon to ſuſpect him, knowing him as ſhe
+does.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Let her believe him but this once, and believe me, he hath
+nothing but ſigh'd for her all this Night.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>But don't you lye now as well as your Maſter?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Fie, that you ſhou'd think ſo?</p>
+                  <p>I'm none of thoſe I would have you to know.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Tell me true then, does he not love <hi>Clariſſa?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>I tell thee he never did.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Art ſure on't?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Moſt certain.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Well then, let him not fear to ſigh for her in vain: for no
+ſooner <hi>Lucrctia</hi> ſaw him, but ſhe ſent me preſently to try
+what I could ſcrew out of him; and if he love her indeed, all will go well
+enough.—Go then and let me alone, I need no farther inſtruction how to
+handle the buſineſs.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Farewell then, and take but pains in the buſineſs, and I
+aſſure thee another golden ſhowre ſhall rain again.</p>
+               </sp>
+            </div>
+            <div n="8" type="scene">
+               <pb facs="tcp:61187:24"/>
+               <head>Scena, 8.</head>
+               <stage>Lucretia, Sabina.</stage>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I ſhall make my Miſtreſs a glad Woman with the news I
+bring; and ſee her here already, ſhe is impatient to know it, and what this
+Letter ſays here.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Well, and what ſays the Man and Maſter?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Why, they both ſay like honeſt men, Madam, and agree in a
+Tale. As for the Maſter, you may ſee what he ſays by this Letter.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Let's ſee't,— 
+<stage>Reads</stage>
+                  </p>
+                  <p>
+                     <hi>Dorant</hi> plays the paſſionate Lover here, but he's
+ſo great a Lyar, I'm not ſo ſimple to believe a word he ſaith.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I believe him forſooth, no more than you, but I believe his
+Piſtols though.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Why, has he given thee any?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Ecce ſignum.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>And how durſt you take 'em?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I took 'em Madam, to free you from your ſolicitude, and let
+you ſee he truly loves you; for without loving the Miſtreſs, you may be
+ſure he wou'd not have been ſo liberal to the maid; and ſo great a
+liberality beſides does ſhow, he is a Gentleman of a noble ſpirit
+too.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Well, I'll be no hind'rance to your good fortune; but hereafter
+when you exceed your duty, look you let not me know of it..</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>But what return to him for his liberality?</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Why, tell him I tore his Letter without vouchſafing to read
+it; nothing elſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Ay me! there's an end of my good fortune then.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Only (of your<g ref="char:punc">▪</g>ſelf) you may add a word or two of comfort,
+and tell him, 'tis the nature of us Women to be ſoon offended, and ſoon
+pleas'd again: and above all advertiſe him, when and where he may meet with
+me; for more aſſurance 'tis neceſſary I ſee him often.</p>
+               </sp>
+               <sp>
+                  <pb n="41" facs="tcp:61187:24"/>
+                  <speaker>Sab.</speaker>
+                  <p>If you did but know forſooth, how much he ſuffers for you,
+you'd never doubt of his affection; all this live-long Night he did nothing but
+ſigh for you.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc,</speaker>
+                  <p>To qualifie his ſighing, give him a little hope mingl'd with
+much fear; and moderate it ſo I may not be ingag'd, nor he diſpair.</p>
+               </sp>
+            </div>
+            <div n="9" type="scene">
+               <head>Scena 9.</head>
+               <stage>Clariſſa, Lucretia, Sabina.</stage>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Well, now I can aſſure you <hi>Dorant</hi> is wholly yours,
+and I have loſt him quite: but that which comforts me in the loſs of him
+is, <hi>Alcippe</hi>'s Father's arriv'd, and the match concluded betwixt him
+and I.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Y'are rid of a grat ſolicitude and trouble then.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I am ſo, and you like to under go it—mean time you'll
+have a fine catch of him<g ref="char:punc">▪</g> for d'ye know what he ſaid?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Whatſoever he ſaid, I dare be bound for him, body for body
+now he only ſays the truth.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Perchance he may, but 'tis a great perchance.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>
+                     <hi>Dorant</hi> is a Lyar, I know that well enough, but one may
+continue telling a Lye ſo long, to make one doubt of the truth of it, at
+laſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Well, if you love him, look well unto him, be ſure, and make
+your bargain wiſely, or he'll deceive you elſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Nay I may believe him without loving him.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>But th'are ſo near a kin, as who makes us believe they love us
+makes us believe them worthy of our love, and believing w'are lov'd, and loving
+is ſo nigh, one paſſes from the one to the other preſently.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>But curioſity of<g ref="char:punc">▪</g>times produces the ſame effect as
+love.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I'll believe you this once to do you a courteſie.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Come, come, you make me mad to hear you talk ſo, leave your
+fiddle faddles and fall roundly to work, or you'll get Husbands as faſt as
+old wives crack Nuts.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Mind her not, the wench is fooliſh,—but pray tell me
+when you encount'red him in the Garden yeſterday, and gave ſuch willing ear
+to his complements, was it love in you, or curioſity?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Curioſity: mere curioſity, <pb n="42" facs="tcp:61187:25"/>with intent
+to laugh afterwards, and make me ſport at all he ſaid.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>
+                     <hi>Why,</hi> and I did the like <hi>by</hi> this Letter here.
+which I receiv'd and read on <hi>Curioſity,</hi> mere <hi>Curioſity;</hi>
+with intent to laugh afterwards, and make me ſport at all he writes.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I, but there's great difference though betwixt reading ones
+Let<g ref="char:EOLhyphen"/>ter, and giving ear to 'em; for the one's favour, the other but a civility:
+but I ſhall be glad if you find your count in him, who in the ſtate I am,
+have no cauſe to envy you.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Beſides know, I've given <hi>Sabina</hi> order to tell him I
+tore it<g ref="char:punc">▪</g> without ever reading it.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And what needed that? if you read it only out of
+curioſity?</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>I, but ſuch a curioſity as yours was, you muſt add that
+too.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Well, be it ſo; but 'tis time to go to the
+<hi>Temple.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Let's go then.—And do you hear? do you as I command
+you.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Ne'r fear, this is not the firſt time I've been imploy'd in
+theſe affairs: I know both your Ma ladies, and't ſhall go hard but I'll
+apply to either a convenient remedy; but know he's not a man to be delay'd
+&amp; dally'd <hi>with.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>I'm inſtructed.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <l>For you my Friends, come you along with me, 
+<stage>ſpeaking to her mony</stage>
+                  </l>
+                  <l>I hope ſhortly to get you more company.</l>
+               </sp>
+            </div>
+            <trailer>Finis Actus quarti.</trailer>
+         </div>
+         <div n="5" type="act">
+            <pb n="43" facs="tcp:61187:25"/>
+            <div n="1" type="scene">
+               <head>Actus quintus. Scena prima.</head>
+               <stage>Geronte, Argante.</stage>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>THis following the Law is a troubleſome buſineſs.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And why then did you not write to me to diſpatch it for you? I
+know, beſides the trouble, one of your years muſt needs expoſe his
+health, as well as eaſe, to much inconveniency, in ſo long a voyage as from
+<hi>Poictiers</hi> hither.</p>
+                  <p>But ſince y'are here, I hope to let you ſee, I want not
+friends, nor pow<g ref="char:EOLhyphen"/>er to ſerve you; mean time, tell me I pray of what Fortune
+and Conditi<g ref="char:EOLhyphen"/>on is <hi>Pyrander</hi> there?</p>
+               </sp>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>
+                     <hi>Pyrander,</hi> who's that?</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>One of the principall'ſt quality in <hi>Poictiers</hi> (they
+ſay) though none of the wealthieſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>I know none ſuch in all the Town.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>You may know him better perhaps by his other name of
+<hi>Armedon.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>I know neither the one, nor the other.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Perchance you may know him better yet by being Father to
+<hi>Orphiſia,</hi> ſo celebrated for her rare perfections, and the only
+admir'd Beauty in all thoſe parts.</p>
+               </sp>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>Believe me, <hi>Pyrander, Armedon,</hi> and <hi>Orphiſia</hi>
+too, are Names unheard of, and wholly unknown to us; and if you'll not believe
+me, I'll bring hundreds more beſides my ſelf, to witneſs it.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Come, come, I know you diſſemble with me now, and feign your
+ſelf ignorant, thinking to do my ſon a courteſie: but I know all, how he
+lov'd <hi>Orphiſia,</hi> how he woo'd her long, and at laſt by occaſion
+of's Pi<g ref="char:EOLhyphen"/>ſtols going off, was taken in the Chamber with her, and forc'd to
+marry her; I know all this, and have forgiven him, and given my conſent to
+his marriage too, wherefore you need not make it a Secret to me any longer.</p>
+               </sp>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>I'll lay my life now, ſome body, to do ill offices betwixt
+you, has invented this <hi>Chymerical</hi> ſtory, names and all: I know
+<hi>Dorant</hi> more valiant and more advis'd than to be ta'en ſo tamely in
+ſuch a Trap as this; wherefore I pray, believe not theſe falſe
+Reports.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>I can hardly yet believe 'em falſe, being told of't by one
+aſſur'd me it was true, and knew it was indifferent unto me. But pray in
+what Reputation was <hi>Dorant</hi> whilſt he liv'd with you?</p>
+               </sp>
+               <sp>
+                  <pb n="44" facs="tcp:61187:26"/>
+                  <speaker>Ar.</speaker>
+                  <p>Why, he had always the repute of one who had both courage and
+wit enough; and both ingenious, bold, and reſolute; and one (in fine) cou'd
+eaſily be Artificer of his own Fame, and make it what he wou'd only one fault
+he had.—</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Pray what was that?</p>
+               </sp>
+               <sp>
+                  <speaker>Ar.</speaker>
+                  <p>Why, 'twas a little unſafe to believe him on his word, he took
+ſuch delight to deceive the world, but 'twas a fault imputed to his youth,
+and cuſtom of ſuch young Scholars as himſelf, but I hope he would leave
+that vicious craft, and unhandſome divertiſement, by your example and
+advice, when he came to riper years, which leſt he does, I can aſſure you
+'twill much blemiſh his Fame and Reputation.</p>
+                  <p>But I muſt take my leave, my buſineſs calls me.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And may you find that ſucceſs in it which you deſire.</p>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>Scena 2.</head>
+               <stage>Geronte.</stage>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Was there ever a more unfortunate Father than I? who now plainly
+ſee my Son's a <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ourbe and Lyar:
+And with his Lyes has not on<g ref="char:EOLhyphen"/>ly deceiv'd me, but made me his inſtrument of
+deceiving others.</p>
+                  <p>O ſhame of my too eaſie credulity, and my gray hairs! as if
+'twere not enough for me to live with my own ſhame, but I muſt dye guilty
+of his infamy? he abuſes my goodneſs with a ſeign'd ſtory of his
+Adventures, &amp; Marriage with not a word of truth in't.</p>
+                  <l>Could I but meet with him, I'd make him know,</l>
+                  <l>What 'tis to abuſe his aged Father ſo.</l>
+                  <p>O Sir, are you here!</p>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>Scena 3.</head>
+               <stage>Dorant, Clyton, Geronte.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What ill luck had I to meet him?</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Come hither, and pray tell me, are you a Gentleman?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor</speaker>
+                  <p>I hope, Sir, none doubts it, being born of you.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And d'ye think that ſufficient?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I do ſir, and ſo does all <hi>France</hi> too.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And don't you know with all <hi>France,</hi> from whence this
+Title of Honour takes its origin? And that 'tis Virtue only enables us with
+that Nobility is afterwards deriv'd unto our Blood?</p>
+               </sp>
+               <sp>
+                  <pb n="45" facs="tcp:61187:26"/>
+                  <speaker>Dor.</speaker>
+                  <p>I am not ignorant of that which all the world knows, that 'tis
+Virtue firſt acquires it.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And if't be ſo, and contraries always work contrary effects,
+it clearly follows that as Virtue gives Nobility, ſo Vice does tak't
+away.</p>
+                  <l>Which being ſo, howe'r thou art my ſon,</l>
+                  <l>yet doing as thou doſt, thou art no Gentleman.</l>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How?</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Peace, and hear me. Whoſoe'r does any diſhonourable Action,
+and after calls himſeif a Gentle<g ref="char:EOLhyphen"/>man, lyes when he ſays it, and is no
+longer one; eſpecially lying as thou doſt. Can therebe any Vice more
+diſhonourable for a Gentleman, born unto Honour, than to tell a <hi>Lye?</hi>
+The very name and mention of which ſets ſuch a laſting blot and
+ignominious ſtain upon his Honour, as but in's life-blood can ne'r be
+waſh'd out again, and thou be imputed abaſe infamous <hi>Lyar?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I! who told you ſo?</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Who told me? tell me if thou canſt thy wives name now, with
+the whole ſtory of your marriage, you told me yeſterday.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Tell him you have forgot it in your ſleep.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Or elſe your Father-in-Laws name, and's <hi>Signorie,</hi> and
+add to your impudence and <hi>Effronterie</hi> ſome other ſtories elſe to
+couzen me.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Now Maſter or never make uſe of your memory and
+invention.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Mean time I (old as I am) was ſo fooliſh to believe you (I
+ſpeak it to my ſhame) and am become the fable and mockery of every one, for
+<hi>my</hi> credulity. But tell me now, thou impudent Lyar, did I uſe any
+violence or force thee to't? did I ſet a Dagger to thy Heart to make thee wed
+<hi>Cla<g ref="char:EOLhyphen"/>riſſa?</hi> If thou hadſt no mind to her, why didſt not tell me
+ſo?</p>
+                  <l>Con'dſt think I wou'd deny thee my conſent</l>
+                  <l>To marry any might be to thy content?</l>
+                  <p>I denied thee not (thou ſeeſt) to marry a mere ſtranger?
+when truth (then) each might have prevail'd with me, what neceſſity was
+there to abuſe me with a <hi>Lye?</hi>
+                  </p>
+                  <l>Methinks this exceſſive goodneſs of mine at leaſt</l>
+                  <l>Shou'd have a little touch, and move thy Breaſt,</l>
+                  <l>Ungrateful as thou art? but now I ſee</l>
+                  <l>Thou haſt no reverence, love, nor fear of me;</l>
+                  <p>Hence, avoid my ſight—I here diſclaim thee.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Good Father hear me.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>What! more <hi>Lyes</hi> and new deceits?</p>
+               </sp>
+               <sp>
+                  <pb n="46" facs="tcp:61187:27"/>
+                  <speaker>Dor.</speaker>
+                  <p>No, but perfect truth.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Was ever any in thy mouth?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Beſhrew me, there he touches you home Maſter, how you'll
+defend your ſelf I know not.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Hap'ning to ſee the fair <hi>Lucretia,</hi> (I'm ſure you
+know her) at firſt ſight of her,</p>
+                  <l>I was ſo taken, 'twas impoſſible for me</l>
+                  <l>Ever to get looſe from that ſweet Captivity.</l>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>On—I know her well, and her Father is my Friend,—but
+look you do not <hi>lye.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And that will be very hard for him to do.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>After which the very name of <hi>Clariſſa,</hi> and all
+women too beſides becoming odious to me, I feign'd this marriage only to
+avoid the marrying her; (not knowing that feigning in Love was any Crime) nor
+durſt I tell you of it, till I might know whether <hi>Lucretra</hi>'s Birth
+and Fortunes were anſwerable to your deſire: which now finding both noble
+and competent I dare, with more confidence beſeech you, Sir, by all the ties
+of Love and Conſanguinity may bind a Father and a Son, you'd ſecond my
+deſire, and give your conſent that I may marry her.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>You'll deceive me once again?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>If you wo'nt believe me, believe <hi>Clyton</hi> here, who knows
+all my ſecrets.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Methinks thou ſhould'ſt even die for ſhame,</p>
+                  <l>That I thy Father ſhou'd more credit one</l>
+                  <l>That's but his ſervant, than thee his ſon.</l>
+                  <p>But that thou mayſt ſee my paternal love to thee, and how
+good I am, once more (ſpight of my anger) I'll try thee, and hazard again the
+being once more deceiv'd. I know <hi>Lucretia</hi> well, and will demand her of
+her Father; but if afterwards I find the leaſt impediment on <hi>thy</hi>
+part—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>For more aſſurance I'll go along with <hi>yon.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>No, do not; do not follow me; once more I'll <hi>try</hi> thee,
+though I miſdoubt thee ſtill: and if thou doſt deceive me, look thou flie
+<hi>my</hi> preſence, for <hi>by</hi> this <hi>heavenly</hi> light,</p>
+                  <l>(Remember <hi>my</hi> Oath) and <hi>yon</hi> bright ſun that
+ſhines,</l>
+                  <l>Thou ne'r ſhalt <hi>dye by</hi> other hands than mine.</l>
+                  <p>Remember.</p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena 5</head>
+               <stage>Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Ha, ha, ha! theſe threat'nings fright me not.</p>
+               </sp>
+               <sp>
+                  <pb n="47" facs="tcp:61187:27"/>
+                  <speaker>Cly.</speaker>
+                  <p>Faith Maſter, you yielded too ſoon then, and ſhou'd have
+ſtood out a little longer, if you had any courage in you, and deceiv'd him
+the third time; there's good luck in odd numbers, they ſay.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Peace and leave your fooling or you'll anger me. I'm not i'th'
+humour now, but am troubl'd in mind.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Perhaps 'tis for having told Truth this once. If this of your
+love to <hi>Lucretia</hi> ben't a Lye too; for I begin now to ſuſpect every
+thing you ſay, and know you ſo well, I underſtand you by contraries.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>No, no, thy ſuſpicions are vain, for I love
+<hi>Lucretia;</hi> love her heartily; but that which troubles me, is to think
+of the hazard I run by declaring my love ſo ſoon? for if her father
+ſhou'd deny her I'm utterly loſt, and ſhip<g ref="char:EOLhyphen"/>wrackt in the port; beſide,
+who knows where ſhe'll continue conſtant.? But that which chiefly troubles
+me (to tell thee true) is to have ſeen one with her ſo charming fair, as
+now I better conſider her, it grieves me to have given my heart away before;
+and if 'twere to do again, I ſhould not know whether o'th' two yet I ſhould
+give it to.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Why then were you ſo earneſt to have your Father demand
+<hi>Lucretia</hi> for <hi>you?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Pho, he would not have believ'd me elſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>So, upon the matter you told him a <hi>Lye,</hi> even when you
+thought you told him true.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>There was no other way to appeaſe his anger. But miſchief on
+him for me that diſabus'd him, I might have had time and leiſure enough to
+have conſider'd who t'have choſen of the two.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>And you <hi>know</hi> that other (<hi>Lucretia</hi>'s boſom
+friend and inſeparable companion) is no other than <hi>Clariſſa?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why then I have done <hi>my ſelf</hi> a good office, though it
+troubles me, and I <hi>envy Alcippe</hi>'s happineſs; but <hi>my</hi> comfort
+is he has but <hi>my</hi> leavings, and ſo I'll leave the thought of her.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>As eaſily it ſeems as <hi>you</hi> did
+<hi>Orphiſia</hi>'s.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Let's go then and reſtore <hi>Lucretia</hi> the ſame
+inviolable faith ſhe had before, and in good time behold <hi>Sabina.</hi>
+                  </p>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>Scena 5,</head>
+               <stage>Sabina, Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What haſt done with <hi>my</hi> Letter? haſt thou deliver'd
+it to her fair hands?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I have Sir, but—</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What but?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>She tore it all to pieces.</p>
+               </sp>
+               <sp>
+                  <pb n="48" facs="tcp:61187:28"/>
+                  <speaker>Dor.</speaker>
+                  <p>What, without reading it?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I Sir,</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And vvou'dſt thou let her?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Alaſs, Sir, I could not help it; ſhe has ſo rated me
+for't, 'tvvould have pi<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ied ye to
+hear it: and has turn'd me avvay upon't; I'm quite undone.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>She'll take thee again ne'r fear it, mean time there's
+ſomvvhat to comfort thee.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>O Lord, Sir—</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>See! ſhe's at her Reverences again, and hovy ſoon ſhe's
+comforted?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Thou ſhalt to her again, go, I've not loſt all my hopes yet,
+and did ſhe tear my Letter ſayſt thou?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Indeed Sir, ſhe bid me tell you ſo; but to deal
+ingenuouſly <hi>with you—</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>This is no cunning Quean!</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>She did not, but read it all over, vvhy ſhou'd I hold ſo
+brave a Gentleman longer in ſuſpence?</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>If there be a Cunninger betvvixt this and <hi>Rome,</hi> I'll go
+thither barefoot.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why then by this account ſhe does not hate me?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>O Lord, Sir, no!</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But does ſhe love me?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Neither.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>That's ſtrange? does ſhe love any other;</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Much leſs.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>What then may I hope for from her?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Nay, I knovv not.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Come prethee tell me.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>What ſhould I tell you?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Why, the truth.</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>I have told it you already.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Dos't think ſhe'll ever love me?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Perhaps.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But vvhen?</p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>When ſhe believes <hi>you,</hi> not before.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Thou mak'ſt me happy; for <hi>by</hi> this <hi>time,</hi>
+ſhe loves <hi>me</hi> then, and can no longer doubt of <hi>my</hi> affection;
+for <hi>my Father—</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Peace. Here ſhe <hi>comes,</hi> and <hi>Clariſſa</hi>
+vvith <hi>her.</hi>
+                  </p>
+               </sp>
+            </div>
+            <div n="6" type="scene">
+               <pb n="49" facs="tcp:61187:28"/>
+               <head>Scena 6.</head>
+               <stage>Clariſſa, Lucretia, Sabina, Dorant, Clyton.</stage>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Well, perchance he may have told you true; but he is not often
+guilty of that fault; wherefore knowing him as you do, precipitate no<g ref="char:EOLhyphen"/>thing;
+let me adviſe you.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Admirable Beauty, who only can diſpoſe of all my happineſs
+and unhappineſs.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>One wou'd think he ſpoke to me, his Eyes are fixt upon me.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>He glanc'd them on you by chance (perhaps) or ſo, but his
+words were directed unto me: let's obſerve him farther.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Alas! in your abſence, in what a mighty pain was I, and how by
+dear experience now I find to be but a moment abſent from thoſe we love, is
+an age of torment to a lovers mind.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Still he continues!</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>But ſee what he writes.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>But hark what he ſays.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>You take what he ſays to me, as ſaid unto your ſelf.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>We ſhall ſee that.—Do you love me then
+<hi>Dorant?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Alas, is my love become then ſo indifferent a thing t'ye,
+ſince I was wholly yours, you ſhould queſtion that now?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>D'ye mark? What think you now? Is this diſcourſe directed
+unto you or me?</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>I know not what to think.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>But let's hear out the whole impoſture.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Indeed 'tis a little groſs, conſidering what we know.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I do not like this whiſpering,—beſeech you Lady,
+whatever ſhe ſays unto you believe her not; conſulting of my Life and
+Happineſs, admit more favourable Councellors than ſhe, who has ſome
+reaſon I grant to have a pique againſt me.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>I have but too much indeed, and if I don't revenge me—</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>'Tis ſomewhat ſtrange indeed, what ſhe has told me.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Believe her not I beſeech you, 'tis only ſome invention of
+her jealous thoughts.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I believe ſo,—but in fine, are <hi>you</hi> ſure
+<hi>you</hi> know me?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Know you! pray no more of this <hi>Railerie.</hi> Are not you
+ſhe, I had the Honour yeſterday to entertain in the <hi>T<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap>uilleries,</hi> and who ſince I've
+made the abſolute Miſtreſs of my Heart?</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Which y'ave ſince given away to another, if I <hi>may</hi>
+believe her.</p>
+               </sp>
+               <sp>
+                  <pb n="50" facs="tcp:61187:29"/>
+                  <speaker>Dor.</speaker>
+                  <p>I given it away unto another! rather let me die here at your
+feet, your angers ſacrifice.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Nay more, ſhe ſays y'are married to another too.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Ha, ha, ha! nay, now I ſee, you ſay all this (indeed) in
+<hi>Raile<g ref="char:EOLhyphen"/>rie</hi> to make you ſport, and here me often repeat again, and
+again, that I am only yours.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And that you ſaid, before you'd be married to me, you'd be
+married in <hi>Turkie.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I, and if they pleaſe in <hi>Argier</hi>'s too, before I'll
+marry any one but you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And that y'ad nothing but Averſion for
+<hi>Clariſſa.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Come, come, what need this? you, know the whole Myſterie of
+it? and that I do all I can to marry you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I can't tell what to think of 't now my ſelf.—Hark ye
+<hi>Lucretia?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How! ſhe <hi>Lucretia?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>Oh! are you advis'd of that now? did I not tell you ſo? and
+you'd not believe me.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>It cannot be, I'm ſure I knew her by her voice to Night.</p>
+               </sp>
+               <sp>
+                  <speaker>Cly.</speaker>
+                  <p>You were deceiv'd; 'twas <hi>Clariſſa</hi> ſpake t'ye
+under <hi>Lucretia</hi>'s Name, <hi>Sabina</hi> has told me all.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>I! was't ſo, well, ſay no more, keep my Counſel, and thou
+ſhalt ſee how handſomly I'll come off; and without changing
+diſcourſe, only change battery, and in a quick turn make all good again. I
+began to find her handſome before, and had a ſecret inclination to love
+her, which now I'm fully reſolved to do; and ſo that was my Error, ſhall
+be my Judgment too.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Now put him to his laſt Teſt of his impudence, and ſee how
+confounded, and aſham'd he'll be.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Well, Sir, in a word, ſhe, as my Friend, has told me, how you
+courted her to Night, and how you ſlighted me. Pray who is't of us two that
+is deceiv'd? for one it needs muſt be; and you ſpoke to her ſo loving<g ref="char:EOLhyphen"/>ly
+and amorouſly to Night it makes me think 'tis I.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Who I! proteſt I ne'r ſpoke to any one but you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And did you not <hi>ſpeak</hi> to <hi>Lucretia</hi> then to
+Night?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Ha, ha, ha! as if I did not <hi>know</hi> you by your
+voice<g ref="char:punc">▪</g>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>I <hi>think</hi> at laſt he will begin to tell truth
+indeed.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>You would fain put a trick upon me, and I let you go on to be
+re<g ref="char:EOLhyphen"/>veng'd of you, and feign'd I did not <hi>know you.</hi> But alas, alas, d'ye
+<hi>think</hi> I was ſo ſimple? the deceit was too groſs, and pray learn
+againſt another<pb n="51" facs="tcp:61187:29"/>time to chooſe better by their
+Phyſiognomies, thoſe you'd put tricks on, for I am none of them.—You
+thought to deceive me, and I deceiv'd you; on<g ref="char:EOLhyphen"/>ly my
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>lightings of you were feign'd to be
+reveng'd on you. For in fine I love you, and ſhou'd hate my life if any
+moment of it were ſpent in any thing, but only in ſerving you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>And if this be true, why did you feign yourſelf married when
+you ſhou'd have married me? I do not ſee what end you could have in
+that?</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>Or why wou'd you w<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ite me this Letter if 'twere not for love of me?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>How I love the hidden cauſe of this anger now? that needs
+muſt be the love of me, ſince y'are diſpleas'd at my loving her;
+wherefore ha<g ref="char:EOLhyphen"/>ving enough diſſembl'd, I here declare, faireſt
+<hi>Lucretia,</hi> 'tis <hi>you</hi> I love, not her.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Was there ever a greater Impoſtor? how can you indure to hear
+him?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Stay, and when y'ave heard me out, you can no ways doubt of the
+truth of that I ſay. Underſtanding of <hi>Clariſſa</hi>'s intent to
+Night, under your Name to deceive me; and how you were conſenting to it too:
+to re<g ref="char:EOLhyphen"/>venge me gently on you, I ſaid ſomething I grant that might have
+offended you.</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>But what ſaid you yeſterday in the <hi>Thuilleries?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>My Complements 'tis true, were to <hi>Clariſſa,</hi> but my
+heart to you.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>Out upon him! can you have any patience to indure him
+longer?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>And there 'twas your fair eyes kindled that fire in me; I
+durſt not let appear, till I might ſee whether my Father wou'd approve my
+flame or no: And as all the reſt of my diſcourſe to her was only feign'd,
+ſo that I told her of my being ſo long in Town, and coming from the Wars,
+was a mere Fiction too.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>D'ye mark how he goes heaping <hi>Lyes</hi> upon <hi>Lyes,</hi>
+and does nothing but juggle with us?</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>In fine, dear, dear <hi>Lucretia,</hi> you are ſhe alone to
+whom I have dedicated all <hi>my</hi> affection.</p>
+               </sp>
+               <sp>
+                  <speaker>Lu<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                  </speaker>
+                  <p>Your actions ſo little confirm your words as I ca<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>carce believe 'em.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>But if <hi>my</hi> Father be gone to demand you of your Father,
+will <hi>you</hi> believe <hi>me</hi> then?</p>
+               </sp>
+               <sp>
+                  <speaker>Luc.</speaker>
+                  <p>After ſo clear a Teſtimony as that, I ſhould conſult
+<hi>my</hi> ſeriouſer thoughts perhaps whether I ſhould or no.</p>
+               </sp>
+               <sp>
+                  <pb n="52" facs="tcp:61187:30"/>
+                  <speaker>Dor.</speaker>
+                  <p>I doubt not then, but ſhortly you-will ſee theſe clouds of
+doubt all diſperſt and diſſipated by the light o'th' verity. Mean time
+<hi>Clariſſa,</hi> be<g ref="char:EOLhyphen"/>twixt you and I, love your <hi>Alcippe,</hi> who had
+had no part in ye, but for <hi>my</hi> feign'd marriage. But this he ſhall
+never know for me; and ſee where he comes here.</p>
+               </sp>
+            </div>
+            <div n="8" type="scene">
+               <head>Scena 8.</head>
+               <stage>Alcippe <hi>and</hi> Geronte <hi>ſeveral ways,</hi>
+Lueretia, Clariſſa, Sabina, Dorent, Clyton.</stage>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Our Parents are agree'd, and <hi>Clariſſa</hi> you are
+mine.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And as for <hi>yours</hi> fair <hi>Lucretia</hi> he has
+conſented <hi>Dorant</hi> ſhou'd marry <hi>you.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>Leaſt ſign of your hands then, the buſineſs is done.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>And as for <hi>you,</hi> leaſt words of your mouth, will do
+the buſineſs too.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Sweeteſt, deny me not that happineſs.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>What are they both dumb? that they hold their peace.</p>
+               </sp>
+               <sp>
+                  <speaker>Cla.</speaker>
+                  <p>My Father, in fine, <hi>may</hi> abſolutely diſpoſe of
+me.</p>
+               </sp>
+               <sp>
+                  <speaker>Lue.</speaker>
+                  <p>And I am all obedience unto mine.</p>
+               </sp>
+               <sp>
+                  <speaker>Ger.</speaker>
+                  <p>Come then and prove the ſweet effects of his Commandments.</p>
+               </sp>
+               <sp>
+                  <speaker>Al.</speaker>
+                  <p>And <hi>you,</hi> that of <hi>yours,</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sab.</speaker>
+                  <p>Now y'are married, farewell <hi>my</hi> golden days. You have no
+need of <hi>my</hi> office <hi>any</hi> more.</p>
+               </sp>
+               <sp>
+                  <speaker>Dor.</speaker>
+                  <p>Fear not, I'll be more liberal then e'r I was before.</p>
+                  <stage>Exeunt. manet Clyton.</stage>
+               </sp>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="epilogue">
+            <head>The Epilogue 
+<hi rend="stage">ſpoken by <hi>Clyton.</hi>
+               </hi>
+            </head>
+            <lg>
+               <l>To Lye is nothing, but do it ſo dextrouſly,</l>
+               <l>As not to be intangled in a lye,</l>
+               <l>There's the Art of it; and I'll forbid any
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ne,</l>
+               <l>To do it ſo dextrouſly as <hi>Dorant</hi> has done.</l>
+               <l>And thoſe who will not fail in the <hi>dexterity,</hi>
+               </l>
+               <l>Let them come often here, and learn to lye.</l>
+            </lg>
+            <trailer>FINIS</trailer>
+            <pb facs="tcp:61187:30" rendition="simple:additions"/>
+         </div>
+      </back>
+   </text>
+</TEI>
